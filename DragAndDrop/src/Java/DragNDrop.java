@@ -7,14 +7,18 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
+import java.io.File;
+
 public class DragNDrop {
 
     WebDriver w;
+    String  filelocation = System.getProperty("user.dir");
 
     @Test
-    public void ScrollBy_Page() throws Exception {
+    public void Drag_NDrop() throws Exception {
 
-        System.setProperty("webdriver.chrome.driver", "F:/chromedriver.exe");
+        String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", ChrmDrvr);
         w = new ChromeDriver();
         w.manage().window().maximize();
         w.navigate().to("http://jqueryui.com/resources/demos/droppable/default.html");
@@ -26,10 +30,10 @@ public class DragNDrop {
 
         WebElement DroppableElement=w.findElement(By.id("droppable"));
 
-        //Using Action class for drag and drop.
+
         Actions act=new Actions(w);
 
-        //Dragged and dropped.
+
         act.dragAndDrop(DraggableElement, DroppableElement).build().perform();
 
     }

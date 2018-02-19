@@ -1,6 +1,5 @@
 package Java;
 
-import org.monte.screenrecorder.ScreenRecorder;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -10,15 +9,18 @@ import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
+import java.io.File;
+
 public class TwoSliders {
 
     WebDriver w;
+    String  filelocation = System.getProperty("user.dir");
 
    @Test
     public void Two_Sliders() throws Exception {
 
-        System.setProperty("webdriver.chrome.driver", "F:/chromedriver.exe");
-        w = new ChromeDriver();
+       String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
+       System.setProperty("webdriver.chrome.driver", ChrmDrvr);        w = new ChromeDriver();
         w.manage().window().maximize();
         w.navigate().to("http://automationpractice.com");
         w.manage().deleteAllCookies();
@@ -30,7 +32,7 @@ public class TwoSliders {
         Thread.sleep(3000);
 
         WebElement slider1 = w.findElement(By.xpath("//*[@id='layered_price_slider']/a[1]"));
-       // WebElement slider = w.findElement(By.xpath("//html/body/div[1]/div[2]/div/div[3]/div[1]/div[1]/div[1]/form/div/div[10]/ul/div/div/a[1]"));
+
         js.executeScript("arguments[0].scrollIntoView();", slider1);
         Thread.sleep(2000);
 

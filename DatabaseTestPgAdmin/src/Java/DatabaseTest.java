@@ -1,8 +1,7 @@
 package Java;
 
 import java.sql.*;
-import java.sql.*;
-import org.testng.annotations.Test;
+
 
 public class DatabaseTest {
 

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>remove demo</title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        *{
+        box-sizing: border-box;
+        }
+
+ div {
+    width: 30%;
+    height: 50px;
+  line-height: 50px;
+  text-align: left;
+    background-color: powderblue;
+    border-style: groove ;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+  i {
+   line-height: normal;
+  float: right;
+
+  }
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<button id="btn1">Append text</button>
+<ul><li>  </li></ul>
+<script>
+
+var DivNum=0;
+
+function remove(link) {
+    link.parentNode.parentNode.removeChild(link.parentNode);
+}
+    $("#btn1").click(function()
+    {
+    var DivId='div00_'+DivNum;
+    var DeleteId='Icon_'+DivNum;
+        $("li").append(" <div id="+DivId+"><i onclick='remove(this)' id="+DeleteId+" class='fa fa-remove' ></i>"+DivNum+"</div>");
+        DivNum++;
+        var DivTotal=DivNum;
+    });
+
+
+</script>
+</body>
+</html>

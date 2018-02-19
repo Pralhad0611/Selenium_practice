@@ -3,3 +3,9 @@
 [0206/154133.122:ERROR:process_info.cc(632)] range at 0x0, size 0x26 fully unreadable
 [0206/154133.798:ERROR:file_io_win.cc(170)] CreateFile C:\Users\admin\AppData\Local\Temp\scoped_dir15976_19036\Crashpad\reports\f38c85ef-1563-4681-8cb2-1dac74d9c2fd.dmp: The system cannot find the path specified. (0x3)
 [0206/154133.798:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0207/091427.706:ERROR:process_info.cc(632)] range at 0x9785249a00000000, size 0x49 fully unreadable
+[0207/091429.125:ERROR:process_info.cc(632)] range at 0x978524ba00000000, size 0x49 fully unreadable
+[0207/091429.125:ERROR:process_info.cc(632)] range at 0x0, size 0x49 fully unreadable
+[0214/095055.059:ERROR:process_info.cc(632)] range at 0x9a5248a00000000, size 0x14 fully unreadable
+[0214/095055.383:ERROR:process_info.cc(632)] range at 0x9a524aa00000000, size 0x14 fully unreadable
+[0214/095055.383:ERROR:process_info.cc(632)] range at 0x0, size 0x14 fully unreadable

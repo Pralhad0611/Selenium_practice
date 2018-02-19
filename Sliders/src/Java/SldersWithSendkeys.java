@@ -4,14 +4,18 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import java.io.File;
+
 public class SldersWithSendkeys
 {
     WebDriver w;
+    String  filelocation = System.getProperty("user.dir");
 
     @Test
     public void SldersWith_Sendkeys() throws Exception {
 
-        System.setProperty("webdriver.chrome.driver", "F:/chromedriver.exe");
+        String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", ChrmDrvr);System.setProperty("webdriver.chrome.driver", "F:/chromedriver.exe");
         w = new ChromeDriver();
         w.manage().window().maximize();
         w.navigate().to("http://automationpractice.com");

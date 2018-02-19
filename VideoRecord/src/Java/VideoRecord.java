@@ -1,4 +1,6 @@
 package Java;
+
+import org.monte.media.Format;
 import org.monte.media.math.Rational;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,15 +9,18 @@ import org.testng.annotations.Test;
 import org.monte.media.FormatKeys.*;
 import org.monte.screenrecorder.ScreenRecorder;
 import java.awt.*;
-import static org.monte.media.FormatKeys.*;
+import java.io.File;
+import static org.monte.media.AudioFormatKeys.*;
 import static org.monte.media.VideoFormatKeys.*;
+
 
 
 public class VideoRecord {
 
     WebDriver w;
-
-    public ScreenRecorder screenRecorder;
+    String filelocation = System.getProperty("user.dir");
+   // public ScreenRecorder screenRecorder;
+    private ScreenRecorder screenRecorder;
 
 
     @Test
@@ -24,7 +29,8 @@ public class VideoRecord {
         VideoRecord videoRecord = new VideoRecord();
         videoRecord.startRecording(); //Started recording
 
-        System.setProperty("webdriver.chrome.driver", "F:/chromedriver.exe");
+        String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", ChrmDrvr);
         w = new ChromeDriver();
         w.manage().window().maximize();
         w.navigate().to("http://localhost:9000");
@@ -49,28 +55,40 @@ public class VideoRecord {
     }
 
 
-    public void startRecording() throws Exception
-    {
+    public void startRecording() throws Exception {
+        String filepath = filelocation+ File.separator+"Docs_files"+File.separator+"Snaps&Videos";
+        File file = new File(filepath);
+
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        int width = screenSize.width;
+        int height = screenSize.height;
+
+        Rectangle captureSize = new Rectangle(0,0, width, height);
+
         GraphicsConfiguration gc = GraphicsEnvironment
                 .getLocalGraphicsEnvironment()
                 .getDefaultScreenDevice()
                 .getDefaultConfiguration();
 
-        this.screenRecorder = new ScreenRecorder(gc,
-                new org.monte.media.Format(MediaTypeKey, MediaType.FILE, MimeTypeKey, MIME_AVI),
-                new org.monte.media.Format(MediaTypeKey, MediaType.VIDEO, EncodingKey, ENCODING_AVI_TECHSMITH_SCREEN_CAPTURE,
+
+        this.screenRecorder = new SpecializedScreenRecorder(gc, captureSize,
+                new Format(MediaTypeKey, MediaType.FILE, MimeTypeKey, MIME_AVI),
+                new Format(MediaTypeKey, MediaType.VIDEO, EncodingKey, ENCODING_AVI_TECHSMITH_SCREEN_CAPTURE,
                         CompressorNameKey, ENCODING_AVI_TECHSMITH_SCREEN_CAPTURE,
                         DepthKey, 24, FrameRateKey, Rational.valueOf(15),
                         QualityKey, 1.0f,
                         KeyFrameIntervalKey, 15 * 60),
-                new org.monte.media.Format(MediaTypeKey, MediaType.VIDEO, EncodingKey, "black",FrameRateKey, Rational.valueOf(30)),
-                null);
+                new Format(MediaTypeKey, MediaType.VIDEO, EncodingKey, "black",
+                        FrameRateKey, Rational.valueOf(30)),
+                null, file, "MyVideo");
         this.screenRecorder.start();
     }
 
-    public void stopRecording() throws Exception
-    {
+    public void stopRecording() throws Exception {
         this.screenRecorder.stop();
     }
+
+
+
 
 }

@@ -7,16 +7,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
+import java.io.File;
+
 public class MouseOver {
 
     WebDriver w;
+    String  filelocation = System.getProperty("user.dir");
 
 
     @Test
-    public void Login_Excel() throws Exception {
+    public void Mouse_Over() throws Exception {
 
 
-        System.setProperty("webdriver.chrome.driver", "F:/chromedriver.exe");
+        String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", ChrmDrvr);
         w = new ChromeDriver();
         w.manage().window().maximize();
         w.navigate().to("http://www.seleniumframework.com/demo-sites/");

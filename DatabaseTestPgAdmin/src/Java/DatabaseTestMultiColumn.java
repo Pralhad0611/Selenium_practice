@@ -7,7 +7,7 @@ public class DatabaseTestMultiColumn {
     public static void main(String[] args) throws Exception, ClassNotFoundException, SQLException
 
     {
-//Connection URL Syntax: "jdbc:mysql://ipaddress:portnumber/db_name"
+           //Connection URL Syntax: "jdbc:mysql://ipaddress:portnumber/db_name"
         String dbUrl = "jdbc:postgresql://localhost:5433/TicketManagement";
 
         //Database Username

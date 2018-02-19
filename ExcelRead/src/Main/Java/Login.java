@@ -6,9 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import java.io.File;
+
 public class Login
 {
     WebDriver w;
+    String  filelocation = System.getProperty("user.dir");
 
 
     @Test
@@ -18,10 +21,12 @@ public class Login
 
         ExcelRead excelReadData =new ExcelRead();
         excelReadData.ExcelReading();
-        System.setProperty("webdriver.chrome.driver", "F:/chromedriver.exe");
+
+        String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", ChrmDrvr);
         w = new ChromeDriver();
         w.manage().window().maximize();
-        w.navigate().to("http://192.168.6.56:9000");
+        w.navigate().to("http://localhost:9000");
         w.manage().deleteAllCookies();
 
         Thread.sleep(2000);

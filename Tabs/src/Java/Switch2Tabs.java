@@ -8,16 +8,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.util.ArrayList;
 
 public class Switch2Tabs
 {
     WebDriver w;
+    String  filelocation = System.getProperty("user.dir");
 
     @Test
-    public void ScrollBy_VisibleElement() throws Exception {
+    public void Switch_2Tabs() throws Exception {
 
-        System.setProperty("webdriver.chrome.driver", "F:/chromedriver.exe");
+        String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", ChrmDrvr);
         w = new ChromeDriver();
         w.manage().window().maximize();
         w.navigate().to("http://demoqa.com/");

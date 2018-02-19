@@ -163,11 +163,9 @@ public class ExcelRead {
 
 
     public void ExcelReading()throws Exception{
-        String filepath = filelocation+ File.separator+"Docs_files"+File.separator+"LoginCredentials.xlsx";
+        String filepath = filelocation+ File.separator+"Docs_files"+File.separator+"Excels"+File.separator+"LoginCredentials.xlsx";
         System.out.println(filepath);
         f= new FileInputStream(filepath);
-        // f = new FileInputStream("F:\\Projects\\OnGitProjects\\Selenium_Test\\Docs_files\\LoginCredentials.xlsx");
-
 
         wb = new XSSFWorkbook(f);
         st=wb.getSheetAt(0);
@@ -175,7 +173,7 @@ public class ExcelRead {
         int i=0,j=1;
         int rows=st.getLastRowNum();
 
-        //System.out.println(rows);
+
         setEmail(st.getRow(i).getCell(j));
 
         setPwd(st.getRow(i+1).getCell(j));
