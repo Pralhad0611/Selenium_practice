@@ -79,6 +79,7 @@
       <root url="jar://F:/Library Files/selenium-java-2.53.0/selenium-2.53.0/libs/commons-io-2.4.jar!/" />
       <root url="jar://F:/Library Files/selenium-java-2.53.0/selenium-2.53.0/libs/testng-6.9.9.jar!/" />
       <root url="jar://F:/Library Files/selenium-java-2.53.0/selenium-2.53.0/libs/phantomjsdriver-1.2.1.jar!/" />
+      <root url="jar://F:/Library Files/jaxen-1.1.1.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://F:/Library Files/commons-validator-1.6/commons-validator-1.6-javadoc.jar!/" />

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+ form {
+   margin: 0 auto;
+  width: 400px;
+   padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 3em;
+}
+input, textarea {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+      height: 24px;
+}
+input:focus, textarea:focus {
+
+  border-color: #000;
+}
+textarea {
+  vertical-align: top;
+  height: 5em;
+      left: 20px;
+    position: relative;
+}
+
+.button {
+   padding-left: 90px;
+}
+
+button {
+    margin-left: 7em;
+}
+input.gender1
+{
+width: 15px;
+vertical-align: text-top;
+height: 13px;
+}
+input#name   {
+position: relative;
+        left: 35px;}
+input#email    {
+position: relative;
+        left: 22px;}
+
+div.gender   {
+    float: left;
+    margin-left: 24px;
+}
+    </style>
+</head>
+<body>
+<form action="../HtmlCssJs/Display.html" method="GET">
+    <br>
+    Name:
+    <input type="text" id="name" name="name" >
+    <br><br>
+    Mail ID:
+    <input type="text" id="email" name="email">
+    <br><br>
+    <div style="float: left;">Gender:</div>
+    <div class="gender">
+        <input type="radio" id="male" class="gender1" name="gender" value="male" checked> Male
+        <input type="radio" id="female" class="gender1" name="gender" value="female"> Female
+        <input type="radio" id="other" class="gender1" name="gender" value="other"> Other
+    </div>
+    <br><br>
+    Address:
+    <textarea id="description" name="description" ></textarea>
+    <br><br>
+    <div class="button">
+        <button type="submit">Submit</button>
+    </div>
+    <br>
+</form>
+</body>
+</html>

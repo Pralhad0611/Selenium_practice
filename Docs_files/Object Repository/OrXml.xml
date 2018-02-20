@@ -1,0 +1,11 @@
+<menu>
+    <name>name</name>
+    <nameValue>Cristiano Ronaldo</nameValue>
+    <email>email</email>
+    <emailValue>cristianoronaldo@iiif.com</emailValue>
+   <gender>input[id='male']</gender>
+    <address>description</address>
+    <addressValue>Hospital Dr. Nélio Mendonça, Funchal, Portugal</addressValue>
+    <submitBttn>//button[@type='submit']</submitBttn>
+    <timedelay>2000</timedelay>
+</menu>

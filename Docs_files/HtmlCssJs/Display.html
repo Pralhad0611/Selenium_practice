@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:float="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+            .One
+        {
+        width: 55%;
+         overflow:auto;
+          border: 1px solid black;
+          word-wrap: break-word;
+        }
+
+        .Two
+        {
+        float:left;
+         width:125px;
+         padding-left: 2px;
+        }
+
+        .Three
+        {
+        float:left;
+         width: 84.3%;
+        ]
+
+    </style>
+</head>
+<body>
+<div class="One">
+    <div class="Two">Name</div>
+    <div class="Three" id="DisplayName"></div>
+    <div class="Two">Email</div>
+    <div class="Three" id="DisplayEmail"></div>
+    <div class="Two">Address</div>
+    <div class="Three" id="DisplayDescription"></div>
+    <div class="Two">Gender</div>
+    <div class="Three" id="DisplayGender"></div>
+</div>
+<br><br>
+<a href="../HtmlCssJs/Forms.html">Back</a>
+<script>
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+var name = getParameterByName('name');
+var email = getParameterByName('email');
+var gender = getParameterByName('gender');
+var description = getParameterByName('description');
+
+ document.getElementById("DisplayName").innerHTML = name;
+ document.getElementById("DisplayEmail").innerHTML = email;
+ document.getElementById("DisplayGender").innerHTML = gender;
+ document.getElementById("DisplayDescription").innerHTML = description;
+</script>
+</body>
+</html>
