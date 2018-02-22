@@ -11,10 +11,9 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.util.ArrayList;
 
-public class Switch2Tabs
-{
+public class Switch2Tabs {
     WebDriver w;
-    String  filelocation = System.getProperty("user.dir");
+    String filelocation = System.getProperty("user.dir");
 
     @Test
     public void Switch_2Tabs() throws Exception {
@@ -34,14 +33,13 @@ public class Switch2Tabs
         actions.contextClick(ElementTab).sendKeys(Keys.CONTROL).sendKeys(Keys.ENTER).build().perform();
         Thread.sleep(3000);
 
-        ArrayList<String> tabs2 = new ArrayList<String> (w.getWindowHandles());
+        ArrayList<String> tabs2 = new ArrayList<String>(w.getWindowHandles());
 
         w.switchTo().window(tabs2.get(0));
         Thread.sleep(1000);
         w.switchTo().window(tabs2.get(1));
 
     }
-
 
 
 }

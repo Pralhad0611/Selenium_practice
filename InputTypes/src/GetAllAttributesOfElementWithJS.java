@@ -3,6 +3,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
+
 import java.io.File;
 
 
@@ -12,7 +13,7 @@ public class GetAllAttributesOfElementWithJS {
 
 
     @Test
-    public void GetAllAttributesOf_ElementWithJS() throws  Exception {
+    public void GetAllAttributesOf_ElementWithJS() throws Exception {
 
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
@@ -30,10 +31,9 @@ public class GetAllAttributesOfElementWithJS {
 
         WebElement WebElementSelect = w.findElement(By.id("countries"));
 
-        JavascriptExecutor js = (JavascriptExecutor)w;
+        JavascriptExecutor js = (JavascriptExecutor) w;
         System.out.println(js.executeScript("var items = {}; for (index = 0; index < arguments[0].attributes.length; ++index) { items[arguments[0].attributes[index].name] = arguments[0].attributes[index].value }; return items;", WebElementSelect));
 
 
-
-          }
+    }
 }

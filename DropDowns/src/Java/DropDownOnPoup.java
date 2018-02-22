@@ -23,7 +23,7 @@ public class DropDownOnPoup {
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 
-        String URL = filelocation+ File.separator+"Docs_files"+ File.separator+"HtmlCssJs"+File.separator+ "DropDowns.html";
+        String URL = filelocation + File.separator + "Docs_files" + File.separator + "HtmlCssJs" + File.separator + "DropDowns.html";
 
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", ChrmDrvr);
@@ -36,7 +36,6 @@ public class DropDownOnPoup {
         String pp = "hello";
         JavascriptExecutor js = (JavascriptExecutor) w;
         js.executeScript("function myFunction(" + pp + "){    Country = prompt('Please enter Country name:', '').toUpperCase();    return Country; var intro = document.createElement('p'); var s;      document.getElementsByTagName('p').innerHTML = myFunction(s);", "");
-
 
 
         Thread.sleep(3000);

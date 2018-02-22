@@ -6,12 +6,11 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.*;
 
-public class ExcelWriteData
-{
+public class ExcelWriteData {
     public static void main(String[] args) throws Exception {
-        String  filelocation = System.getProperty("user.dir");
+        String filelocation = System.getProperty("user.dir");
         try {
-            String filepath = filelocation+ File.separator+"Docs_files"+File.separator+"Excels"+File.separator+"ExcelWrite.xlsx";
+            String filepath = filelocation + File.separator + "Docs_files" + File.separator + "Excels" + File.separator + "ExcelWrite.xlsx";
             FileInputStream file = new FileInputStream(new File(filepath));
             XSSFWorkbook workbook = new XSSFWorkbook(file);
 
@@ -22,7 +21,7 @@ public class ExcelWriteData
 
             file.close();
 
-            FileOutputStream outFile =new FileOutputStream(new File(filepath));
+            FileOutputStream outFile = new FileOutputStream(new File(filepath));
             workbook.write(outFile);
             outFile.close();
 

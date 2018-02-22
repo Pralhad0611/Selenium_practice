@@ -11,13 +11,14 @@ public class ScrollByPage
 
 {
     WebDriver w;
-    String  filelocation = System.getProperty("user.dir");
+    String filelocation = System.getProperty("user.dir");
 
     @Test
     public void ScrollBy_Page() throws Exception {
 
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver", ChrmDrvr);        w = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver", ChrmDrvr);
+        w = new ChromeDriver();
         w.manage().window().maximize();
         w.navigate().to("http://demoqa.com/");
         w.manage().deleteAllCookies();

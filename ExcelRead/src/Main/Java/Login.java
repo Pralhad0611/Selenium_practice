@@ -8,18 +8,16 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 
-public class Login
-{
+public class Login {
     WebDriver w;
-    String  filelocation = System.getProperty("user.dir");
+    String filelocation = System.getProperty("user.dir");
 
 
     @Test
-    public void Login_Excel() throws Exception
-    {
+    public void Login_Excel() throws Exception {
 
 
-        ExcelRead excelReadData =new ExcelRead();
+        ExcelRead excelReadData = new ExcelRead();
         excelReadData.ExcelReading();
 
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
@@ -33,7 +31,7 @@ public class Login
 
         w.findElement(By.id("userName")).clear();
         Thread.sleep(200);
-        System.out.println("formatCellValue(excelRead3.getEmail()).toString()"+new DataFormatter().formatCellValue(excelReadData.getEmail()));
+        System.out.println("formatCellValue(excelRead3.getEmail()).toString()" + new DataFormatter().formatCellValue(excelReadData.getEmail()));
         w.findElement(By.id("userName")).sendKeys(new DataFormatter().formatCellValue(excelReadData.getEmail()).toString());
         System.out.println(new DataFormatter().formatCellValue(excelReadData.getEmail()).toString());
         Thread.sleep(200);

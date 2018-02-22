@@ -14,7 +14,7 @@ public class AlertWithInput {
 
     @Test
     public void Alert_WithInput() throws Exception {
-        String URL = filelocation+ File.separator+"Docs_files"+ File.separator+"HtmlCssJs"+File.separator+ "AlertInput.html";
+        String URL = filelocation + File.separator + "Docs_files" + File.separator + "HtmlCssJs" + File.separator + "AlertInput.html";
 
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", ChrmDrvr);

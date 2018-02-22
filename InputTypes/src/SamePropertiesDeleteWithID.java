@@ -15,7 +15,7 @@ public class SamePropertiesDeleteWithID {
     String filelocation = System.getProperty("user.dir");
 
     @Test
-    public void SameProperties_DeleteWithID() throws  Exception {
+    public void SameProperties_DeleteWithID() throws Exception {
 
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);

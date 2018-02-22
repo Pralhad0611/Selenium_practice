@@ -1,14 +1,16 @@
 .container,.panel{padding:0.01em 16px;content:"";display:table;clear:both;}
 .center{text-align:center!important;display:inline-block;width:auto;display:inline-block;width:auto;text-align:center;text-align:center!important;}
 
-.bar{width:100%;overflow:hidden;display:inline-block;width:auto;}
+.bar{width:100%;overflow:hidden;display:inline-block; right: -526px; position: relative;}
 .bar:before,.bar:after{content:"";display:table;clear:both;}
 .bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0;}
 .button{white-space:normal;width:100%:border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;
 color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;-webkit-touch-callout:none;-webkit-user-select:none;
--khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none; border: 0.1px solid #e6e4e4;}
+
 .button:hover{color:#000!important;background-color:#ccc!important;}
-.border{border:1px solid #ccc!important;}
+
+.border{border:1px solid #000!important;}
 .border-top{border-top:1px solid #ccc!important}.border-bottom{border-bottom:1px solid #ccc!important;}
 .border-left{border-left:1px solid #ccc!important}.border-right{border-right:1px solid #ccc!important;}
 .option-heading{background:#ddd; cursor:pointer;    width: 1%;}

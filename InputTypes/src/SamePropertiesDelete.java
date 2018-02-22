@@ -10,18 +10,17 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.util.List;
 
-public class SamePropertiesDelete
-{
+public class SamePropertiesDelete {
     WebDriver w;
     String filelocation = System.getProperty("user.dir");
 
     @Test
-    public void SameProperties_Delete() throws  Exception {
+    public void SameProperties_Delete() throws Exception {
 
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 
-        String URL = filelocation+ File.separator+"Docs_files"+ File.separator+"HtmlCssJs"+File.separator+ "SameProperties.html";
+        String URL = filelocation + File.separator + "Docs_files" + File.separator + "HtmlCssJs" + File.separator + "SameProperties.html";
 
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", ChrmDrvr);
@@ -31,8 +30,7 @@ public class SamePropertiesDelete
         w.manage().deleteAllCookies();
         Thread.sleep(3000);
 
-        for(int ii=0;ii<=10;ii++)
-        {
+        for (int ii = 0; ii <= 10; ii++) {
 
             w.findElement(By.id("btn1")).click();
         }
@@ -43,13 +41,12 @@ public class SamePropertiesDelete
         String cssSelectorsOfSameElements1 = "i[class='fa fa-remove']";
         List<WebElement> WebInput = w.findElements(By.cssSelector(cssSelectorsOfSameElements1));
 
-        for(int i=0;i<WebInput.size();i++)
-        {
+        for (int i = 0; i < WebInput.size(); i++) {
 
-           // WebInput.get(i).click();
+            // WebInput.get(i).click();
         }
         Thread.sleep(2000);
-       w.close();
+        w.close();
 
 
     }

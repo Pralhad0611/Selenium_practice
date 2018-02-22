@@ -12,7 +12,7 @@ import java.io.File;
 public class DragNDrop {
 
     WebDriver w;
-    String  filelocation = System.getProperty("user.dir");
+    String filelocation = System.getProperty("user.dir");
 
     @Test
     public void Drag_NDrop() throws Exception {
@@ -26,12 +26,12 @@ public class DragNDrop {
         Thread.sleep(3000);
 
 
-        WebElement DraggableElement=w.findElement(By.id("draggable"));
+        WebElement DraggableElement = w.findElement(By.id("draggable"));
 
-        WebElement DroppableElement=w.findElement(By.id("droppable"));
+        WebElement DroppableElement = w.findElement(By.id("droppable"));
 
 
-        Actions act=new Actions(w);
+        Actions act = new Actions(w);
 
 
         act.dragAndDrop(DraggableElement, DroppableElement).build().perform();

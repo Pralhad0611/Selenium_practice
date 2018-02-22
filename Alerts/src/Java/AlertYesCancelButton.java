@@ -15,7 +15,7 @@ public class AlertYesCancelButton {
 
     @Test
     public void Alert_YesCancelButton() throws Exception {
-        String URL = filelocation+ File.separator+"Docs_files"+ File.separator+"HtmlCssJs"+File.separator+ "AlertYesNo.html";
+        String URL = filelocation + File.separator + "Docs_files" + File.separator + "HtmlCssJs" + File.separator + "AlertYesNo.html";
 
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", ChrmDrvr);

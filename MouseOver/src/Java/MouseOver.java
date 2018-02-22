@@ -12,7 +12,7 @@ import java.io.File;
 public class MouseOver {
 
     WebDriver w;
-    String  filelocation = System.getProperty("user.dir");
+    String filelocation = System.getProperty("user.dir");
 
 
     @Test
@@ -25,17 +25,15 @@ public class MouseOver {
         w.manage().window().maximize();
         w.navigate().to("http://www.seleniumframework.com/demo-sites/");
         w.manage().deleteAllCookies();
-
         Thread.sleep(2000);
 
-
-        WebElement WebElementFirst=w.findElement(By.linkText("TUTORIALS"));
-        Actions ActionFirst=new Actions(w);
+        WebElement WebElementFirst = w.findElement(By.linkText("TUTORIALS"));
+        Actions ActionFirst = new Actions(w);
         ActionFirst.moveToElement(WebElementFirst).build().perform();
         Thread.sleep(2000);
 
-        WebElement w2=w.findElement(By.linkText("Java"));
-        Actions a2=new Actions(w);
+        WebElement w2 = w.findElement(By.linkText("Java"));
+        Actions a2 = new Actions(w);
         ActionFirst.moveToElement(w2).build().perform();
         Thread.sleep(2000);
         w.findElement(By.linkText("Selenium & Cucumber Basic Tutorial")).click();

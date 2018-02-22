@@ -1,29 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <link>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="mystyle.css">  </link>
+<meta charset="UTF-8">
+<title>Title</title>
+<link rel="stylesheet" href="mystyle.css">
+</link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-
-<div>dfgdfg</div>
-<div class="container">
-    <div class="center">
-
-            <div class="bar border">
-            <a href="#" class="bar-item button">&laquo;</a>
-            <a href="#" class="bar-item button">1</a>
-            <a href="#" class="bar-item button">2</a>
-            <a href="#" class="bar-item button">3</a>
-            <a href="#" class="bar-item button">4</a>
-            <a href="#" class="bar-item button">&raquo;</a>
+<div id="displayWeb" style="height: 715px; border: 1px solid;"></div>
+<div class="container " style="left: 645px; position: relative; padding: 3px;">
+         <div class="bar ">
+            <a onclick="load_home1()" class="bar-item "><i class="fa fa fa-circle-o"></i></a>
+            <a onclick="load_home2()" class="bar-item "><i class="fa fa fa-circle-o"></i></a>
+            <a onclick="load_home3()" class="bar-item "><i class="fa fa fa-circle-o"></i></a>
+            <a onclick="load_home4()" class="bar-item "><i class="fa fa fa-circle-o"></i></a>
         </div>
-    </div>
-
 
 </div>
+<script>
+function load_home1()
+{
+     document.getElementById("displayWeb").innerHTML='<object style="height: inherit; width: 100%;" type="text/html" data="links.html" ></object>';
+}
+
+function load_home2()
+{
+     document.getElementById("displayWeb").innerHTML='<object style="height: inherit; width: 100%;" type="text/html" data="Inputs.html" ></object>';
+}
+
+function load_home3()
+{
+     document.getElementById("displayWeb").innerHTML='<object style="height: inherit; width: 100%;" type="text/html" data="Forms.html" ></object>';
+}
+
+function load_home4()
+{
+     document.getElementById("displayWeb").innerHTML='<object style="height: inherit; width: 100%;" type="text/html" data="SameProperties.html" ></object>';
+}
+
+</script>
 </body>
 </html>

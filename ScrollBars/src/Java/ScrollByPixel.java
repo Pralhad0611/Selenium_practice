@@ -11,7 +11,7 @@ public class ScrollByPixel
 
 {
     WebDriver w;
-    String  filelocation = System.getProperty("user.dir");
+    String filelocation = System.getProperty("user.dir");
 
     @Test
     public void ScrollBy_Pixel() throws Exception {

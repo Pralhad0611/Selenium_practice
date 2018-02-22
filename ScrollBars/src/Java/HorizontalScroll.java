@@ -6,10 +6,9 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 
-public class HorizontalScroll
-{
+public class HorizontalScroll {
     WebDriver w;
-    String  filelocation = System.getProperty("user.dir");
+    String filelocation = System.getProperty("user.dir");
 
     @Test
     public void Horizontal_Scroll() throws Exception {
@@ -17,7 +16,7 @@ public class HorizontalScroll
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", ChrmDrvr);
         w = new ChromeDriver();
-        Dimension d = new Dimension(420,500);
+        Dimension d = new Dimension(420, 500);
         w.manage().window().setSize(d);
         w.navigate().to("http://demoqa.com/");
         w.manage().deleteAllCookies();

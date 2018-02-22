@@ -3,19 +3,20 @@ package Main.Java;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 public class ExcelRead {
 
-    FileInputStream f,f1,f2;
-    FileOutputStream F0Cargo,FOParticular,FOVessel;
+    FileInputStream f, f1, f2;
+    FileOutputStream F0Cargo, FOParticular, FOVessel;
     XSSFWorkbook wb;
     XSSFSheet st;
-    XSSFCell email,pwd;
+    XSSFCell email, pwd;
     private int rows;
-    String  filelocation = System.getProperty("user.dir");
+    String filelocation = System.getProperty("user.dir");
     int i = 1, j = 1;
 
     public FileInputStream getF() {
@@ -82,7 +83,7 @@ public class ExcelRead {
         this.st = st;
     }
 
-   public XSSFCell getEmail() {
+    public XSSFCell getEmail() {
         return email;
     }
 
@@ -153,31 +154,29 @@ public class ExcelRead {
     }
 
 
-    public ExcelRead(FileInputStream f, FileInputStream f1, FileInputStream f2, FileInputStream fCargo, FileInputStream fParticular, FileOutputStream f0Cargo, FileOutputStream FOParticular, XSSFWorkbook wb, XSSFWorkbook wb1, XSSFWorkbook wb2, XSSFWorkbook wb3, XSSFWorkbook wbCargo, XSSFWorkbook wbParticular, XSSFSheet st, XSSFSheet st1, XSSFSheet st2, XSSFSheet stCargo, XSSFSheet stParticular, XSSFCell email, XSSFCell comapny, XSSFCell comapnyperson, XSSFCell pwd, XSSFCell to, XSSFCell KAttn, XSSFCell berth_Anchorage, XSSFCell MV, XSSFCell operation, XSSFCell cargo, XSSFCell cargo_weight, XSSFCell ex_Rate, XSSFCell s_Tax, XSSFCell freight_Tax, XSSFCell voyage, XSSFCell levy, XSSFCell particularName, int rows, int i, int j, int rowss, int i1, int j1, int particularNameI, int particularNameJ, int statusI, int statusJ)
-    {
+    public ExcelRead(FileInputStream f, FileInputStream f1, FileInputStream f2, FileInputStream fCargo, FileInputStream fParticular, FileOutputStream f0Cargo, FileOutputStream FOParticular, XSSFWorkbook wb, XSSFWorkbook wb1, XSSFWorkbook wb2, XSSFWorkbook wb3, XSSFWorkbook wbCargo, XSSFWorkbook wbParticular, XSSFSheet st, XSSFSheet st1, XSSFSheet st2, XSSFSheet stCargo, XSSFSheet stParticular, XSSFCell email, XSSFCell comapny, XSSFCell comapnyperson, XSSFCell pwd, XSSFCell to, XSSFCell KAttn, XSSFCell berth_Anchorage, XSSFCell MV, XSSFCell operation, XSSFCell cargo, XSSFCell cargo_weight, XSSFCell ex_Rate, XSSFCell s_Tax, XSSFCell freight_Tax, XSSFCell voyage, XSSFCell levy, XSSFCell particularName, int rows, int i, int j, int rowss, int i1, int j1, int particularNameI, int particularNameJ, int statusI, int statusJ) {
         this.f = f;
         this.f1 = f1;
         this.f2 = f2;
     }
 
 
-
-    public void ExcelReading()throws Exception{
-        String filepath = filelocation+ File.separator+"Docs_files"+File.separator+"Excels"+File.separator+"LoginCredentials.xlsx";
+    public void ExcelReading() throws Exception {
+        String filepath = filelocation + File.separator + "Docs_files" + File.separator + "Excels" + File.separator + "LoginCredentials.xlsx";
         System.out.println(filepath);
-        f= new FileInputStream(filepath);
+        f = new FileInputStream(filepath);
 
         wb = new XSSFWorkbook(f);
-        st=wb.getSheetAt(0);
+        st = wb.getSheetAt(0);
 
-        int i=0,j=1;
-        int rows=st.getLastRowNum();
+        int i = 0, j = 1;
+        int rows = st.getLastRowNum();
 
 
         setEmail(st.getRow(i).getCell(j));
 
-        setPwd(st.getRow(i+1).getCell(j));
-        System.out.println(st.getRow(i+1).getCell(j));
+        setPwd(st.getRow(i + 1).getCell(j));
+        System.out.println(st.getRow(i + 1).getCell(j));
 
 
     }

@@ -12,7 +12,7 @@ import java.io.File;
 public class ScrollByVisibleElement {
 
     WebDriver w;
-    String  filelocation = System.getProperty("user.dir");
+    String filelocation = System.getProperty("user.dir");
 
     @Test
     public void ScrollBy_VisibleElement() throws Exception {
@@ -33,8 +33,6 @@ public class ScrollByVisibleElement {
         WebElement Element = w.findElement(By.linkText("INFORMATION"));
         js.executeScript("arguments[0].scrollIntoView();", Element);
         Thread.sleep(2000);
-
-
 
 
     }

@@ -6,14 +6,12 @@ import org.testng.annotations.Test;
 public class TestNG {
 
     @Test
-    public void ss()
-    {
+    public void ss() {
 
     }
 
     @BeforeTest
-    public void sss()
-    {
+    public void sss() {
 
     }
 }

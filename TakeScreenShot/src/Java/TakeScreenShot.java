@@ -6,6 +6,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -13,7 +14,7 @@ public class TakeScreenShot {
 
     WebDriver w;
     String filelocation = System.getProperty("user.dir");
-    String filepath = filelocation+ File.separator+"Docs_files"+File.separator+"Snaps&Videos"+File.separator+"screenshot.jpg";
+    String filepath = filelocation + File.separator + "Docs_files" + File.separator + "Snaps&Videos" + File.separator + "screenshot.jpg";
 
     @Test
     public void Take_ScreenShot() throws InterruptedException, IOException {

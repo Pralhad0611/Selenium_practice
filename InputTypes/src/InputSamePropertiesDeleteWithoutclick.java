@@ -17,7 +17,7 @@ public class InputSamePropertiesDeleteWithoutclick {
 
 
     @Test
-    public void InputSameProperties_DeleteWithoutclick() throws  Exception {
+    public void InputSameProperties_DeleteWithoutclick() throws Exception {
 
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
@@ -38,10 +38,8 @@ public class InputSamePropertiesDeleteWithoutclick {
         System.out.println(WebInput.size());
 
 
-
-        JavascriptExecutor js = (JavascriptExecutor)w;
-       for(int i=0;i<WebInput.size();i++)
-        {
+        JavascriptExecutor js = (JavascriptExecutor) w;
+        for (int i = 0; i < WebInput.size(); i++) {
             js.executeScript("arguments[0].parentNode.removeChild(arguments[0])", WebInput.get(i));
 
         }

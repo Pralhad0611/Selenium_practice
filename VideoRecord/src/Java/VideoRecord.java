@@ -8,18 +8,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 import org.monte.media.FormatKeys.*;
 import org.monte.screenrecorder.ScreenRecorder;
+
 import java.awt.*;
 import java.io.File;
+
 import static org.monte.media.AudioFormatKeys.*;
 import static org.monte.media.VideoFormatKeys.*;
-
 
 
 public class VideoRecord {
 
     WebDriver w;
     String filelocation = System.getProperty("user.dir");
-   // public ScreenRecorder screenRecorder;
+    // public ScreenRecorder screenRecorder;
     private ScreenRecorder screenRecorder;
 
 
@@ -56,14 +57,14 @@ public class VideoRecord {
 
 
     public void startRecording() throws Exception {
-        String filepath = filelocation+ File.separator+"Docs_files"+File.separator+"Snaps&Videos";
+        String filepath = filelocation + File.separator + "Docs_files" + File.separator + "Snaps&Videos";
         File file = new File(filepath);
 
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         int width = screenSize.width;
         int height = screenSize.height;
 
-        Rectangle captureSize = new Rectangle(0,0, width, height);
+        Rectangle captureSize = new Rectangle(0, 0, width, height);
 
         GraphicsConfiguration gc = GraphicsEnvironment
                 .getLocalGraphicsEnvironment()
@@ -87,8 +88,6 @@ public class VideoRecord {
     public void stopRecording() throws Exception {
         this.screenRecorder.stop();
     }
-
-
 
 
 }

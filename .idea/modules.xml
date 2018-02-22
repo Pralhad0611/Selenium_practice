@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Alerts/Alerts.iml" filepath="$PROJECT_DIR$/Alerts/Alerts.iml" />
       <module fileurl="file://$PROJECT_DIR$/AutoIT/AutoIT.iml" filepath="$PROJECT_DIR$/AutoIT/AutoIT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Buttons/Buttons.iml" filepath="$PROJECT_DIR$/Buttons/Buttons.iml" />
       <module fileurl="file://$PROJECT_DIR$/DatabaseTestPgAdmin/DatabaseTestPgAdmin.iml" filepath="$PROJECT_DIR$/DatabaseTestPgAdmin/DatabaseTestPgAdmin.iml" />
       <module fileurl="file://$PROJECT_DIR$/DragAndDrop/DragAndDrop.iml" filepath="$PROJECT_DIR$/DragAndDrop/DragAndDrop.iml" />
       <module fileurl="file://$PROJECT_DIR$/DropDowns/DropDowns.iml" filepath="$PROJECT_DIR$/DropDowns/DropDowns.iml" />

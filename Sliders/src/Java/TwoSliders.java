@@ -14,13 +14,14 @@ import java.io.File;
 public class TwoSliders {
 
     WebDriver w;
-    String  filelocation = System.getProperty("user.dir");
+    String filelocation = System.getProperty("user.dir");
 
-   @Test
+    @Test
     public void Two_Sliders() throws Exception {
 
-       String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
-       System.setProperty("webdriver.chrome.driver", ChrmDrvr);        w = new ChromeDriver();
+        String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", ChrmDrvr);
+        w = new ChromeDriver();
         w.manage().window().maximize();
         w.navigate().to("http://automationpractice.com");
         w.manage().deleteAllCookies();

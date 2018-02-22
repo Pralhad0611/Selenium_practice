@@ -7,7 +7,7 @@ public class DatabaseTestMultiColumn {
     public static void main(String[] args) throws Exception, ClassNotFoundException, SQLException
 
     {
-           //Connection URL Syntax: "jdbc:mysql://ipaddress:portnumber/db_name"
+        //Connection URL Syntax: "jdbc:mysql://ipaddress:portnumber/db_name"
         String dbUrl = "jdbc:postgresql://localhost:5433/TicketManagement";
 
         //Database Username
@@ -36,15 +36,13 @@ public class DatabaseTestMultiColumn {
         String firstColumnName = rsmd.getColumnName(1);
 
 
-        for (int dwcolumn = 1; dwcolumn <= columnsNumber; dwcolumn++)
-        {
+        for (int dwcolumn = 1; dwcolumn <= columnsNumber; dwcolumn++) {
             System.out.println("================================");
             System.out.println("================================");
 
             System.out.println(rsmd.getColumnName(dwcolumn) + " "); //Print column Name
             System.out.println("================================");
             // System.out.println(rs.next());
-
 
 
             while (rs.next()) {
@@ -55,8 +53,8 @@ public class DatabaseTestMultiColumn {
         }
 
 
-
         con.close();
 
 
-}}
+    }
+}

@@ -16,12 +16,12 @@ public class InputsSameProperties {
     String filelocation = System.getProperty("user.dir");
 
     @Test
-    public void Inputs_SameProperties() throws  Exception {
+    public void Inputs_SameProperties() throws Exception {
 
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 
-        String URL = filelocation+ File.separator+"Docs_files"+ File.separator+"HtmlCssJs"+File.separator+ "Inputs.html";
+        String URL = filelocation + File.separator + "Docs_files" + File.separator + "HtmlCssJs" + File.separator + "Inputs.html";
 
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", ChrmDrvr);
@@ -31,8 +31,8 @@ public class InputsSameProperties {
         w.manage().deleteAllCookies();
         Thread.sleep(3000);
 
-        String cssSelectorsOfSameElements="input[type='text']";
-        List<WebElement> WebInput=w.findElements(By.cssSelector(cssSelectorsOfSameElements)) ;
+        String cssSelectorsOfSameElements = "input[type='text']";
+        List<WebElement> WebInput = w.findElements(By.cssSelector(cssSelectorsOfSameElements));
         System.out.println(WebInput.size());
 
         WebInput.get(0).sendKeys("Mickey");
