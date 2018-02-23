@@ -1,3 +1,5 @@
+package Java;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
@@ -10,17 +12,17 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.util.List;
 
-public class InputSamePropertiesSendkeys {
+public class SamePropertiesDelete {
     WebDriver w;
     String filelocation = System.getProperty("user.dir");
 
     @Test
-    public void Inputs_SameProperties() throws Exception {
+    public void SameProperties_Delete() throws Exception {
 
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 
-        String URL = filelocation + File.separator + "Docs_files" + File.separator + "HtmlCssJs" + File.separator + "Inputs.html";
+        String URL = filelocation + File.separator + "Docs_files" + File.separator + "HtmlCssJs" + File.separator + "SameProperties.html";
 
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", ChrmDrvr);
@@ -30,20 +32,24 @@ public class InputSamePropertiesSendkeys {
         w.manage().deleteAllCookies();
         Thread.sleep(3000);
 
-        String[] Mickey_Mouse = {"Mickey", "Donald Duck", "Daisy", "Goofy", "Max Goof", "Minnie", "Pete",
-                "Huey", "Dewey", "Louie", "Pluto", "Blot", "Chip", "Dale",
-                "Oswald", "Scrooge", "Angela", "Giselle", "Mildred", "Casey"};
+        for (int ii = 0; ii <= 10; ii++) {
 
+            w.findElement(By.id("btn1")).click();
+        }
+        Thread.sleep(5000);
 
-        String cssSelectorsOfSameElements = "input[type='text']";
-        List<WebElement> WebInput = w.findElements(By.cssSelector(cssSelectorsOfSameElements));
-        System.out.println(WebInput.size());
+        //  w.findElement(By.xpath("//*[contains(text(), 'fa fa-remove')]")).click();
+
+        String cssSelectorsOfSameElements1 = "i[class='fa fa-remove']";
+        List<WebElement> WebInput = w.findElements(By.cssSelector(cssSelectorsOfSameElements1));
 
         for (int i = 0; i < WebInput.size(); i++) {
-            WebInput.get(i).sendKeys(Mickey_Mouse[i]);
+
+            WebInput.get(i).click();
         }
         Thread.sleep(2000);
         w.close();
+
 
     }
 

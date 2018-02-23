@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+td#subtn
+{
+ text-align: center;
+}
+input#subutton
+{
+    height: 43px;
+    width: 13%;
+    font-size: 33px;
+    }
+
+
+    </style>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td>Input type Text</td>
+            <td><input type="text" name="Text"></td>
+        </tr>
+        <tr>
+            <td>Input type Password</td>
+            <td><input type="password" name="Password"></td>
+        </tr>
+        <tr>
+            <td>Input type Email</td>
+            <td><input type="email" name="Email"></td>
+        </tr>
+        <tr>
+            <td>Input type RadioButton</td>
+            <td><input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other<br><br></td>
+        </tr>
+        <tr>
+            <td>Input type Checkbox</td>
+            <td><input type="checkbox" name="vehicle1" value="Bike">I have a bike
+                <br>
+                <input type="checkbox" name="vehicle2" value="Car">I have a car <br><br></td>
+        </tr>
+        <tr>
+            <td>Input type Colors</td>
+            <td><input type="color" name="PicColor" ><br><br></td>
+        </tr>
+        <tr>
+            <td>Input type Date</td>
+            <td><input type="date" name="bday"><br><br></td>
+        </tr>
+        <tr>
+            <td>Input type Date (min)</td>
+            <td><input type="date" name="bday" max="2000-12-31"><br><br></td>
+        </tr>
+        <tr>
+            <td>Input type Date (max)</td>
+            <td><input type="date" name="bday" max="1979-12-31"><br><br></td>
+        </tr>
+        <tr>
+            <td>Input type Month</td>
+            <td><input type="month" name="bdaymonth"><br><br></td>
+        </tr>
+        <tr>
+            <td>Input type Number</td>
+            <td><input type="number" name="points" min="0" max="100" step="10" value="30"><br><br></td>
+        </tr>
+        <tr>
+            <td>Input type Range</td>
+            <td><input type="range" name="RangePoints" min="0" max="100"><br><br></td>
+        </tr> <tr>
+            <td>Input type Range</td>
+            <td><input type="range" list="tickmarks">
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="10">
+                    <option value="20">
+                    <option value="30">
+                    <option value="40">
+                    <option value="50">
+                    <option value="60">
+                    <option value="70">
+                    <option value="80">
+                    <option value="90">
+                    <option value="100">
+                </datalist><br><br></td>
+        </tr>
+        <tr>
+            <td>Input type Search</td>
+            <td><input type="search" name="googlesearch"><br><br></td>
+        </tr>
+        <tr>
+            <td>Input type Time</td>
+            <td><input type="time" name="usr_time"><br><br></td>
+        </tr>
+        <tr>
+            <td>Input type URL</td>
+            <td><input type="url" name="homepage"><br><br></td>
+        </tr>
+        <tr>
+            <td>Input type Week</td>
+            <td><input type="week" name="week_year"><br><br></td>
+        </tr>
+        <tr>
+        <td>Input type Telephone</td>
+        <td><input type="tel" name="tel"><br><br></td>
+    </tr>
+        <tr>
+            <td colspan="3" id="subtn"><input id="subutton" type="submit"></td>
+        </tr>
+
+
+    </table>
+</form>
+</body>
+</html>

@@ -14,7 +14,7 @@ public class ClickButtonWithDiffWays {
     String filelocation = System.getProperty("user.dir");
 
     @Test
-    public void Two_Sliders() throws Exception {
+    public void ClickButton_WithDiffWays() throws Exception {
 
         String URL = filelocation + File.separator + "Docs_files" + File.separator + "HtmlCssJs" + File.separator + "AlertDemo.html";
 
@@ -46,9 +46,6 @@ public class ClickButtonWithDiffWays {
         Alert ButtonAlert2 = w.switchTo().alert();
         Thread.sleep(1000);
         ButtonAlert2.accept();
-
-
-
 
         Thread.sleep(2000);
         w.close();

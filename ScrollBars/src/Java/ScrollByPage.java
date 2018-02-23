@@ -25,7 +25,6 @@ public class ScrollByPage
         Thread.sleep(3000);
 
         JavascriptExecutor js = (JavascriptExecutor) w;
-
         js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
     }
 }

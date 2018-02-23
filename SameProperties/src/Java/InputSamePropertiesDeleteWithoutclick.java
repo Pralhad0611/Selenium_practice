@@ -1,6 +1,9 @@
+package Java;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.CapabilityType;
@@ -10,13 +13,13 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.util.List;
 
-public class InputsSameProperties {
-
+public class InputSamePropertiesDeleteWithoutclick {
     WebDriver w;
     String filelocation = System.getProperty("user.dir");
 
+
     @Test
-    public void Inputs_SameProperties() throws Exception {
+    public void InputSameProperties_DeleteWithoutclick() throws Exception {
 
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
@@ -33,11 +36,16 @@ public class InputsSameProperties {
 
         String cssSelectorsOfSameElements = "input[type='text']";
         List<WebElement> WebInput = w.findElements(By.cssSelector(cssSelectorsOfSameElements));
+
         System.out.println(WebInput.size());
 
-        WebInput.get(0).sendKeys("Mickey");
-        WebInput.get(1).sendKeys("Donald Duck");
 
+        JavascriptExecutor js = (JavascriptExecutor) w;
+        for (int i = 0; i < WebInput.size(); i++) {
+            js.executeScript("arguments[0].parentNode.removeChild(arguments[0])", WebInput.get(i));
+
+        }
+        Thread.sleep(5000);
+        w.close();
     }
-
 }
