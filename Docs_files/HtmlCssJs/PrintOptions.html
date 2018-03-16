@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Click the button to print the current page.</p>
+
+<button onclick="myFunction()">Print this page</button>
+<br><br>
+<a href="javascript:window.print()">Print This Page</a>
+<br><br>
+<input type="button" onclick="printDiv('printableArea')" value="print a Image"/><br><br>
+<div id="printableArea">
+    <img style="height: 550px; display: block; margin-left: auto; margin-right: auto;" src="img_001.jpg"> </img>
+</div>
+
+<script>
+function myFunction() {
+    window.print();
+}
+
+function printDiv(divName) {
+     var printContents = document.getElementById(divName).innerHTML;
+     var originalContents = document.body.innerHTML;
+     document.body.innerHTML = printContents;
+     window.print();
+     document.body.innerHTML = originalContents;
+}
+</script>
+</body>
+</html>

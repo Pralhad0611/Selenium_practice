@@ -28,6 +28,7 @@ input#subutton
     }
 
 
+
     </style>
 </head>
 <body>
@@ -35,7 +36,7 @@ input#subutton
     <table>
         <tr>
             <td>Input type Text</td>
-            <td><input type="text" name="Text"></td>
+            <td><input type="text" name="Text" required></td>
         </tr>
         <tr>
             <td>Input type Password</td>
@@ -53,25 +54,29 @@ input#subutton
         </tr>
         <tr>
             <td>Input type Checkbox</td>
-            <td><input type="checkbox" name="vehicle1" value="Bike">I have a bike
+            <td><input type="checkbox" name="vehicle" value="Bike">I have a bike
                 <br>
-                <input type="checkbox" name="vehicle2" value="Car">I have a car <br><br></td>
+                <input type="checkbox" name="vehicle" value="Car">I have a car <br><br></td>
         </tr>
         <tr>
             <td>Input type Colors</td>
-            <td><input type="color" name="PicColor" ><br><br></td>
+            <td><input type="color" name="PicColor"><br><br></td>
         </tr>
         <tr>
-            <td>Input type Date</td>
-            <td><input type="date" name="bday"><br><br></td>
+            <td>Input type Date </td>
+            <td><input type="date" name="Date"><br><br></td>
+        </tr>
+        <tr>
+            <td>Input type Date and Time</td>
+            <td><input type="datetime-local" name="DateTime"><br><br></td>
         </tr>
         <tr>
             <td>Input type Date (min)</td>
-            <td><input type="date" name="bday" max="2000-12-31"><br><br></td>
+            <td><input type="date" name="dateMinRange" min="2000-12-31"><br><br></td>
         </tr>
         <tr>
             <td>Input type Date (max)</td>
-            <td><input type="date" name="bday" max="1979-12-31"><br><br></td>
+            <td><input type="date" name="dateMaxRange" max="1979-12-31"><br><br></td>
         </tr>
         <tr>
             <td>Input type Month</td>
@@ -79,12 +84,13 @@ input#subutton
         </tr>
         <tr>
             <td>Input type Number</td>
-            <td><input type="number" name="points" min="0" max="100" step="10" value="30"><br><br></td>
+            <td><input type="number" name="points" min="0" max="97" step="1" ><br><br></td>
         </tr>
         <tr>
             <td>Input type Range</td>
             <td><input type="range" name="RangePoints" min="0" max="100"><br><br></td>
-        </tr> <tr>
+        </tr>
+        <tr>
             <td>Input type Range</td>
             <td><input type="range" list="tickmarks">
                 <datalist id="tickmarks">
@@ -99,7 +105,8 @@ input#subutton
                     <option value="80">
                     <option value="90">
                     <option value="100">
-                </datalist><br><br></td>
+                </datalist>
+                <br><br></td>
         </tr>
         <tr>
             <td>Input type Search</td>
@@ -118,9 +125,9 @@ input#subutton
             <td><input type="week" name="week_year"><br><br></td>
         </tr>
         <tr>
-        <td>Input type Telephone</td>
-        <td><input type="tel" name="tel"><br><br></td>
-    </tr>
+            <td>Input type Telephone</td>
+            <td><input type="tel" name="tel"><br><br></td>
+        </tr>
         <tr>
             <td colspan="3" id="subtn"><input id="subutton" type="submit"></td>
         </tr>

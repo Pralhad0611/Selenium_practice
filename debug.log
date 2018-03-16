@@ -10,3 +10,11 @@
 [0214/095055.383:ERROR:process_info.cc(632)] range at 0x9a524aa00000000, size 0x14 fully unreadable
 [0214/095055.383:ERROR:process_info.cc(632)] range at 0x0, size 0x14 fully unreadable
 [0223/145705.365:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0314/093034.088:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0314/093053.142:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0314/093145.489:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0314/093800.610:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0315/093034.151:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0315/093053.168:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0315/093145.490:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0315/093800.630:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports

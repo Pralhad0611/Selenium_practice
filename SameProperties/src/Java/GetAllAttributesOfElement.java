@@ -5,9 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
-
 import java.io.File;
-import java.util.List;
+
 
 public class GetAllAttributesOfElement {
     WebDriver w;
