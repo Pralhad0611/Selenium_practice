@@ -14,8 +14,8 @@ public class ScrollByPixel
     String filelocation = System.getProperty("user.dir");
 
     @Test
-    public void ScrollBy_Pixel() throws Exception {
-
+    public void ScrollBy_Pixel() throws Exception
+    {
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", ChrmDrvr);
         w = new ChromeDriver();
@@ -25,7 +25,6 @@ public class ScrollByPixel
         Thread.sleep(3000);
 
         JavascriptExecutor js = (JavascriptExecutor) w;
-
         js.executeScript("window.scrollBy(0,1000)");
     }
 }

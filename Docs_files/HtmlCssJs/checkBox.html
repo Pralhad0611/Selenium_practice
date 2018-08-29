@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="mystyle.css">
+    </link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+    .sectioncontainer
+    {
+
+    margin: 0;
+    display: table;
+    max-width: 100%;
+    width: 100%
+    }
+
+    .purpose-right
+    {
+        border: 1px solid #cccccc;
+    padding: 8px;
+    max-height: 177px;
+    overflow: auto;
+    }
+
+    .purpose-header
+    {
+    border: 1px solid #cccccc;
+    line-height: 30px;
+    text-indent: 10px;
+        margin-bottom: 10px;
+    padding-right: 6px;
+    }
+
+    .label
+    {
+        display: block;
+    margin-bottom: 12px;
+    margin-left: 0;
+    }
+
+     .checkbox-inline
+        {
+        margin-top: 0;
+    margin-left: 10px;
+    }
+
+    .row
+    {
+        margin-right: -15px;
+    margin-left: -15px;
+    }
+
+
+    .purposeBox-outer .purposeBox-inner
+    {padding: 12px 20px;
+    border: 1px solid #cccccc;
+    border-top: none;
+    max-height: 145px;
+    overflow: auto;
+    }
+</style>
+</head>
+<body>
+<div class="sectioncontainer purposeBox-outer">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="purpose-header">Purpose</div>
+            <div class="purposeBox-inner">
+               
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-pristine ng-untouched ng-valid" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="21"/>
+                    TECHNICIAN
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-pristine ng-untouched ng-valid" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="20"/>
+                    SPARES
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="19"/>
+                    SECURITY TEAMS HANDLING
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="18"/>
+                    REPAIR/SURVEY/DRY DOCK
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="17"/>
+                    PROVISION/STORES/BUNKERS
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="16"/>
+                    PROVISION/STORES
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="15"/>
+                    PASSENGER CALL
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="14"/>
+                    OTHERS
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="13"/>
+                    N2 NITROGEN PURGING
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="12"/>
+                    LOADING
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="11"/>
+                    LIGHTERING
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="10"/>
+                    DISCHARGING
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="9"/>
+                    DE-SLOPPING/STS/SLUDGE REMOVAL
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="8"/>
+                    CREW REST / VISIT
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="7"/>
+                    CREW CHANGE
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="6"/>
+                    CLEANING
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="5"/>
+                    CASH TO MASTER
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="4"/>
+                    CANAL TRANSIT-LADEN
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="3"/>
+                    CANAL TRANSIT-BALLAST
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="2"/>
+                    CANAL TRANSIT
+                </label>
+                
+                <label class="checkbox-inline ng-binding ng-scope" data-ng-repeat="purpose in displayRecords.purposeList track by purpose.id">
+                    <input class="ng-valid ng-dirty ng-valid-parse ng-touched" type="checkbox" data-ng-model="checkbox" ng-click="addPurpose(purpose, checkbox)" data-id="1"/>
+                    BUNKERS ONLY
+                </label>
+                
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="purpose-right">
+                
+                <div class="purpose-header ng-binding ng-scope" data-ng-repeat="purpose in enquiry.purpose track by purpose.id">
+                    PROVISION/STORES/BUNKERS
+                    <a id="17" class="floatright" data-ng-click="deletePurpose($index, purpose.id)">
+                        <i class="fa fa-trash-o" aria-hidden="true"/>
+                    </a>
+                </div>
+                <!-- end ngRepeat: purpose in enquiry.purpose track by purpose.id -->
+                <div class="purpose-header ng-binding ng-scope" data-ng-repeat="purpose in enquiry.purpose track by purpose.id">
+                    PROVISION/STORES
+                    <a id="16" class="floatright" data-ng-click="deletePurpose($index, purpose.id)">
+                        <i class="fa fa-trash-o" aria-hidden="true"/>
+                    </a>
+                </div>
+                <!-- end ngRepeat: purpose in enquiry.purpose track by purpose.id -->
+                <div class="purpose-header ng-binding ng-scope" data-ng-repeat="purpose in enquiry.purpose track by purpose.id">
+                    PASSENGER CALL
+                    <a id="15" class="floatright" data-ng-click="deletePurpose($index, purpose.id)">
+                        <i class="fa fa-trash-o" aria-hidden="true"/>
+                    </a>
+                </div>
+                <!-- end ngRepeat: purpose in enquiry.purpose track by purpose.id -->
+                <div class="purpose-header ng-binding ng-scope" data-ng-repeat="purpose in enquiry.purpose track by purpose.id">
+                    BUNKERS ONLY
+                    <a id="1" class="floatright" data-ng-click="deletePurpose($index, purpose.id)">
+                        <i class="fa fa-trash-o" aria-hidden="true"/>
+                    </a>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

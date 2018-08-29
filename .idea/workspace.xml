@@ -2,29 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc3bb615-f601-4204-8c7e-a70b5af97537" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Docs_files/HtmlCssJs/img_001.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Alerts/src/Java/AlertMessages.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClearData/ClearData.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClearData/src/Java/DeleteoneCharacter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Docs_files/HtmlCssJs/PrintOptions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Docs_files/HtmlCssJs/parallax.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InputTypes/src/InputTypeCheckBox.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InputTypes/src/InputTypeDate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InputTypes/src/InputTypeDateTime.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InputTypes/src/InputTypeNumberRange.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InputTypes/src/InputTypePassword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InputTypes/src/InputTypeRadio.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InputTypes/src/InputTypeTime.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Alerts/Java/AlertOkButton.class" afterPath="$PROJECT_DIR$/out/production/Alerts/Java/AlertOkButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Alerts/Java/AlertWithInput.class" afterPath="$PROJECT_DIR$/out/production/Alerts/Java/AlertWithInput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Alerts/Java/AlertYesCancelButton.class" afterPath="$PROJECT_DIR$/out/production/Alerts/Java/AlertYesCancelButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InputTypes/InputTypeWeek.class" afterPath="$PROJECT_DIR$/out/production/InputTypes/InputTypeWeek.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Alerts/src/Java/AlertLabels.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Alerts/src/Java/MultipleAlertLabels.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AutoIT/src/Java/AutoITCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BaseClass/BaseClass.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BaseClass/src/Main/BaseClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BaseClass/src/Main/FailedLogin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Buttons/src/Java/ClickDiv.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Docs_files/HtmlCssJs/AlertLabel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Docs_files/HtmlCssJs/LabelsHideShow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Docs_files/HtmlCssJs/Linedrop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Docs_files/HtmlCssJs/MultipleAlertLabels.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Docs_files/HtmlCssJs/checkBox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Docs_files/HtmlCssJs/lineDrop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Docs_files/HtmlCssJs/lineDrop2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Docs_files/HtmlCssJs/loading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Docs_files/Jsons/colors.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExcelRead/src/Basic/WriteExcel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileUpload/FileUpload.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileUpload/src/Main/FileUplaod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InputTypes/src/InputTypeCheckBox2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InputTypes/src/InputTypeFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonReadWrite/JsonReadWrite.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonReadWrite/src/Java/JsonRead.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonReadWrite/src/Java/JsonWrite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Robot/Robot.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Robot/src/Main/RobotFileUpload.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sikuli/Sikuli.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TEstNG/XMLs/TestNG.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TEstNG/src/Java/Dataprovider_TestNG.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utilities/Utilities.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utilities/src/Java/AlertHandling.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utilities/src/Java/BrowserFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utilities/src/Java/DriverDataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utilities/src/Java/ExlUtility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utilities/src/Java/PageScrollUpDown.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utilities/src/Java/SelectDropdownOption.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Docs_files/Snaps&amp;Videos/null-2018-02-12 17.41.44.avi" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Docs_files/Excels/ExcelWrite.xlsx" afterPath="$PROJECT_DIR$/Docs_files/Excels/ExcelWrite.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Drivers/chromedriver.exe" afterPath="$PROJECT_DIR$/Drivers/chromedriver.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Alerts/Java/AlertMessages.class" afterPath="$PROJECT_DIR$/out/production/Alerts/Java/AlertMessages.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Buttons/Java/ClickButtonWithDiffWays.class" afterPath="$PROJECT_DIR$/out/production/Buttons/Java/ClickButtonWithDiffWays.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DragAndDrop/Java/DragNDrop.class" afterPath="$PROJECT_DIR$/out/production/DragAndDrop/Java/DragNDrop.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MouseOver/Java/MouseOver.class" afterPath="$PROJECT_DIR$/out/production/MouseOver/Java/MouseOver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ObjectRepository/Java/ORWithPropertiesFile.class" afterPath="$PROJECT_DIR$/out/production/ObjectRepository/Java/ORWithPropertiesFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ObjectRepository/Java/ORWithXML.class" afterPath="$PROJECT_DIR$/out/production/ObjectRepository/Java/ORWithXML.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ScrollBars/Java/HorizontalScroll.class" afterPath="$PROJECT_DIR$/out/production/ScrollBars/Java/HorizontalScroll.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ScrollBars/Java/ScrollByPage.class" afterPath="$PROJECT_DIR$/out/production/ScrollBars/Java/ScrollByPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ScrollBars/Java/ScrollByPixel.class" afterPath="$PROJECT_DIR$/out/production/ScrollBars/Java/ScrollByPixel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ScrollBars/Java/ScrollByVisibleElement.class" afterPath="$PROJECT_DIR$/out/production/ScrollBars/Java/ScrollByVisibleElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Tabs/Java/Switch2Tabs.class" afterPath="$PROJECT_DIR$/out/production/Tabs/Java/Switch2Tabs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TakeScreenShot/Java/TakeScreenShot.class" afterPath="$PROJECT_DIR$/out/production/TakeScreenShot/Java/TakeScreenShot.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/aspriseOCR.xml" afterPath="$PROJECT_DIR$/.idea/libraries/aspriseOCR.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Docs_files/HtmlCssJs/AllInputTypes.html" afterPath="$PROJECT_DIR$/Docs_files/HtmlCssJs/AllInputTypes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputTypes/src/InputTypeWeek.java" afterPath="$PROJECT_DIR$/InputTypes/src/InputTypeWeek.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ObjectRepository/src/Java/ORWithPropertiesFile.java" afterPath="$PROJECT_DIR$/ObjectRepository/src/Java/ORWithPropertiesFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SameProperties/src/Java/GetAllAttributesOfElement.java" afterPath="$PROJECT_DIR$/SameProperties/src/Java/GetAllAttributesOfElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alerts/src/Java/AlertMessages.java" afterPath="$PROJECT_DIR$/Alerts/src/Java/AlertMessages.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoIT/src/Java/AutoITFileUpload.java" afterPath="$PROJECT_DIR$/AutoIT/src/Java/AutoITFileUpload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DatabaseTestPgAdmin/src/Java/DatabaseTestMultiColumn.java" afterPath="$PROJECT_DIR$/DatabaseTestPgAdmin/src/Java/DatabaseTestMultiColumn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Docs_files/HtmlCssJs/mystyle.css" afterPath="$PROJECT_DIR$/Docs_files/HtmlCssJs/mystyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DragAndDrop/src/Java/DragNDrop.java" afterPath="$PROJECT_DIR$/DragAndDrop/src/Java/DragNDrop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelWriteData.java" afterPath="$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelWriteData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExcelRead/src/Main/Java/Login.java" afterPath="$PROJECT_DIR$/ExcelRead/src/Main/Java/Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputTypes/src/InputTypeRadio.java" afterPath="$PROJECT_DIR$/InputTypes/src/InputTypeRadio.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputTypes/src/InputTypeRange.java" afterPath="$PROJECT_DIR$/InputTypes/src/InputTypeRange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MouseOver/src/Java/MouseOver.java" afterPath="$PROJECT_DIR$/MouseOver/src/Java/MouseOver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ObjectRepository/src/Java/ORWithXML.java" afterPath="$PROJECT_DIR$/ObjectRepository/src/Java/ORWithXML.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SameProperties/src/Java/GetAllAttributesOfElementWithJS.java" afterPath="$PROJECT_DIR$/SameProperties/src/Java/GetAllAttributesOfElementWithJS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SameProperties/src/Java/InputSamePropertiesDeleteWithoutclick.java" afterPath="$PROJECT_DIR$/SameProperties/src/Java/InputSamePropertiesDeleteWithoutclick.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScrollBars/src/Java/ScrollByPage.java" afterPath="$PROJECT_DIR$/ScrollBars/src/Java/ScrollByPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScrollBars/src/Java/ScrollByPixel.java" afterPath="$PROJECT_DIR$/ScrollBars/src/Java/ScrollByPixel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TEstNG/src/Java/TestNG.java" afterPath="$PROJECT_DIR$/TEstNG/src/Java/TestNG.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tabs/src/Java/Switch2Tabs.java" afterPath="$PROJECT_DIR$/Tabs/src/Java/Switch2Tabs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TakeScreenShot/src/Java/TakeScreenShot.java" afterPath="$PROJECT_DIR$/TakeScreenShot/src/Java/TakeScreenShot.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug.log" afterPath="$PROJECT_DIR$/debug.log" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,21 +88,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AllInputTypes.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/AllInputTypes.html">
+      <file leaf-file-name="InputSamePropertiesDeleteWithoutclick.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/InputSamePropertiesDeleteWithoutclick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="68" column="12" lean-forward="false" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+            <state relative-caret-position="476">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClickButtonWithDiffWays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buttons/src/Java/ClickButtonWithDiffWays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="28" column="61" lean-forward="false" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputTypeWeek.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeWeek.java">
+      <file leaf-file-name="AlertHandling.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utilities/src/Java/AlertHandling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="312">
+              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrowserFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Utilities/src/Java/BrowserFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,33 +132,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputTypeDate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeDate.java">
+      <file leaf-file-name="ExlUtility.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utilities/src/Java/ExlUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlertOkButton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Alerts/src/Java/AlertOkButton.java">
+      <file leaf-file-name="PageScrollUpDown.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utilities/src/Java/PageScrollUpDown.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlertMessages.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Alerts/src/Java/AlertMessages.java">
+      <file leaf-file-name="SelectDropdownOption.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utilities/src/Java/SelectDropdownOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,55 +164,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteoneCharacter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ClearData/src/Java/DeleteoneCharacter.java">
+      <file leaf-file-name="DriverDataSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utilities/src/Java/DriverDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Docs_files/Object Repository/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="204">
+              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ORWithPropertiesFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ObjectRepository/src/Java/ORWithPropertiesFile.java">
+      <file leaf-file-name="ScrollByPixel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScrollBars/src/Java/ScrollByPixel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SameProperties.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/SameProperties.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="74" lean-forward="false" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="74" />
+            <state relative-caret-position="221">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SamePropertiesDelete.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/SamePropertiesDelete.java">
+      <file leaf-file-name="Switch2Tabs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tabs/src/Java/Switch2Tabs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="408">
+              <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -152,38 +199,56 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Unnamed (1)" />
         <option value="Unnamed (2)" />
         <option value="AnnotationType" />
         <option value="FxmlFile" />
         <option value="Unnamed (3)" />
         <option value="Unnamed (4)" />
+        <option value="Unnamed (1)" />
         <option value="HTML File" />
+        <option value="json" />
+        <option value="xml" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ale</find>
-      <find>Country</find>
-      <find>movieFolder</find>
-      <find>.xlsx</find>
-      <find>onC</find>
-      <find>executeScript</find>
-      <find>custom.js</find>
-      <find>href</find>
-      <find>fa</find>
-      <find>xpath</find>
-      <find>Alert</find>
-      <find>-4</find>
-      <find>cssSelector</find>
-      <find>Attribute</find>
-      <find>Keys</find>
+      <find>taxMachine</find>
+      <find>img</find>
+      <find>.js</find>
+      <find>Clickpopup</find>
+      <find>ClickThing2</find>
+      <find>ClickNever</find>
+      <find>QM</find>
+      <find>kHi</find>
+      <find>you</find>
+      <find>one</find>
+      <find>ever</find>
+      <find>ClickLove</find>
+      <find>200</find>
+      <find>Are</find>
+      <find>scrol</find>
+      <find>.Socialconnect</find>
+      <find>WebElements</find>
+      <find>WebElement</find>
+      <find>css</find>
+      <find>&lt;!-- end ngRepeat: purpose in displayRecords.purposeList track by purpose.id --&gt;</find>
+      <find>&lt;!-- ngRepeat: purpose in enquiry.purpose track by purpose.id --&gt;</find>
+      <find>button</find>
+      <find>robo</find>
+      <find>custom</find>
+      <find>javascriptE</find>
+      <find>alert</find>
       <find>js</find>
-      <find>value</find>
-      <find>delete</find>
+      <find>js.e</find>
+      <find>acc</find>
+      <find>aler</find>
     </findStrings>
+    <replaceStrings>
+      <replace>ClickHi</replace>
+      <replace>500</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -196,64 +261,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DropDowns/src/Java/DropDownByValue.java" />
-        <option value="$PROJECT_DIR$/DropDowns/src/Java/DropDownByVisibleText.java" />
-        <option value="$PROJECT_DIR$/DropDowns/src/Java/DropDownOnPoup.java" />
+        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/mystyle.css" />
+        <option value="$PROJECT_DIR$/Alerts/src/Java/AlertLabels.java" />
+        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/AlertLabel2.html" />
+        <option value="$PROJECT_DIR$/Alerts/src/Java/MultipleAlertLabels.java" />
+        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/LabelsHideShow.html" />
+        <option value="$PROJECT_DIR$/Buttons/src/Java/ClickDiv.java" />
+        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/lineDrop.css" />
+        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/Linedrop.html" />
+        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/lineDrop2.html" />
+        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/loading.html" />
+        <option value="$PROJECT_DIR$/TakeScreenShot/src/Java/TakeScreenShot.java" />
+        <option value="$PROJECT_DIR$/Sunrich_Villas/SunrichVillasCSS.css" />
+        <option value="$PROJECT_DIR$/Sunrich_Villas/SunrichVillas_Dashboard.html" />
+        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/checkBox.html" />
+        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeFile.java" />
+        <option value="$PROJECT_DIR$/SameProperties/src/Java/GetAllAttributesOfElementWithJS.java" />
+        <option value="$PROJECT_DIR$/Docs_files/Jsons/colors.json" />
+        <option value="$PROJECT_DIR$/JsonReadWrite/src/Java/JsonWrite.java" />
+        <option value="$PROJECT_DIR$/JsonReadWrite/src/Java/JsonRead.java" />
+        <option value="$PROJECT_DIR$/BaseClass/src/Main/FailedLogin.java" />
+        <option value="$PROJECT_DIR$/BaseClass/src/Main/BaseClass.java" />
+        <option value="$PROJECT_DIR$/DragAndDrop/src/Java/DragNDrop.java" />
+        <option value="$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java" />
+        <option value="$PROJECT_DIR$/TEstNG/src/Java/Dataprovider_TestNG.java" />
+        <option value="$PROJECT_DIR$/TEstNG/src/Java/TestNG.java" />
+        <option value="$PROJECT_DIR$/TEstNG/XMLs/TestNG.xml" />
+        <option value="$PROJECT_DIR$/DatabaseTestPgAdmin/src/Java/DatabaseTestMultiColumn.java" />
+        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeRadio.java" />
+        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeRange.java" />
+        <option value="$PROJECT_DIR$/AutoIT/src/Java/AutoITFileUpload.java" />
+        <option value="$PROJECT_DIR$/AutoIT/src/Java/AutoITCalculator.java" />
+        <option value="$PROJECT_DIR$/ObjectRepository/src/Java/ORWithXML.java" />
+        <option value="$PROJECT_DIR$/Robot/src/Main/RobotFileUpload.java" />
+        <option value="$PROJECT_DIR$/FileUpload/src/Main/FileUplaod.java" />
         <option value="$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelRead.java" />
         <option value="$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelWriteData.java" />
         <option value="$PROJECT_DIR$/ExcelRead/src/Main/Java/Login.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/GetAllAttributesOfElement.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/GetAllAttributesOfElementWithJS.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputSamePropertiesDeleteWithoutclick.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputSamePropertiesSendkeys.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputsSameProperties.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/SamePropertiesDeleteWithID.java" />
-        <option value="$PROJECT_DIR$/Links/src/Java/FetchWebLinks.java" />
-        <option value="$PROJECT_DIR$/ScrollBars/src/Java/HorizontalScroll.java" />
-        <option value="$PROJECT_DIR$/ScrollBars/src/Java/ScrollByPixel.java" />
-        <option value="$PROJECT_DIR$/ScrollBars/src/Java/ScrollByVisibleElement.java" />
-        <option value="$PROJECT_DIR$/Sliders/src/Java/SldersWithSendkeys.java" />
-        <option value="$PROJECT_DIR$/Sliders/src/Java/TwoSliders.java" />
-        <option value="$PROJECT_DIR$/Tables/src/Java/FetchWebTable.java" />
-        <option value="$PROJECT_DIR$/Tabs/src/Java/Switch2Tabs.java" />
-        <option value="$PROJECT_DIR$/TakeScreenShot/src/Java/TakeScreenShot.java" />
-        <option value="$PROJECT_DIR$/TEstNG/src/Java/TestNG.java" />
-        <option value="$PROJECT_DIR$/VideoRecord/src/Java/SpecializedScreenRecorder.java" />
-        <option value="$PROJECT_DIR$/VideoRecord/src/Java/VideoRecord.java" />
-        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/AlertDemo.html" />
-        <option value="$PROJECT_DIR$/InputTypes/src/SamePropertiesDelete.java" />
-        <option value="$PROJECT_DIR$/Buttons/src/Java/ClickButtonWithDiffWays.java" />
-        <option value="$PROJECT_DIR$/SameProperties/src/Java/SamePropertiesDelete.java" />
-        <option value="$PROJECT_DIR$/SameProperties/src/Java/SamePropertiesDeleteWithID.java" />
-        <option value="$PROJECT_DIR$/SameProperties/src/Java/InputsSameProperties.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeRange.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeColor.java" />
-        <option value="$PROJECT_DIR$/SameProperties/src/Java/InputSamePropertiesSendkeys.java" />
-        <option value="$PROJECT_DIR$/SameProperties/src/Java/InputSamePropertiesDeleteWithoutclick.java" />
-        <option value="$PROJECT_DIR$/SameProperties/src/Java/GetAllAttributesOfElementWithJS.java" />
+        <option value="$PROJECT_DIR$/ExcelRead/src/Basic/WriteExcel.java" />
+        <option value="$PROJECT_DIR$/MouseOver/src/Java/MouseOver.java" />
         <option value="$PROJECT_DIR$/ScrollBars/src/Java/ScrollByPage.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeTime.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeRadio.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeCheckBox.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputTypePassword.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeNumberRange.java" />
-        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/parallax.html" />
-        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/PrintOptions.html" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeWeek.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeDateTime.java" />
-        <option value="$PROJECT_DIR$/SameProperties/src/Java/GetAllAttributesOfElement.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeDate.java" />
-        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/AllInputTypes.html" />
         <option value="$PROJECT_DIR$/Alerts/src/Java/AlertMessages.java" />
-        <option value="$PROJECT_DIR$/ClearData/src/Java/DeleteoneCharacter.java" />
-        <option value="$PROJECT_DIR$/ObjectRepository/src/Java/ORWithPropertiesFile.java" />
+        <option value="$PROJECT_DIR$/TEstNG/XMLs/example suite 1/Regression suite 1.xml" />
+        <option value="$PROJECT_DIR$/ScrollBars/src/Java/ScrollByPixel.java" />
+        <option value="$PROJECT_DIR$/Tabs/src/Java/Switch2Tabs.java" />
+        <option value="$PROJECT_DIR$/SameProperties/src/Java/InputSamePropertiesDeleteWithoutclick.java" />
+        <option value="$PROJECT_DIR$/Utilities/src/Java/DriverDataSource.java" />
+        <option value="$PROJECT_DIR$/Utilities/src/Java/AlertHandling.java" />
+        <option value="$PROJECT_DIR$/Utilities/src/Java/ExlUtility.java" />
+        <option value="$PROJECT_DIR$/Utilities/src/Java/PageScrollUpDown.java" />
+        <option value="$PROJECT_DIR$/Utilities/src/Java/SelectDropdownOption.java" />
+        <option value="$PROJECT_DIR$/Utilities/src/Java/BrowserFactory.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="y" value="1" />
-    <option name="width" value="1440" />
-    <option name="height" value="868" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -274,7 +340,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,72 +347,38 @@
               <item name="Selenium_Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Selenium_Practice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Selenium_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ClearData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ClearData" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Docs_files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Docs_files" type="462c0819:PsiDirectoryNode" />
-              <item name="Object Repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectRepository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectRepository" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectRepository" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="F:/Library Files/jaxen-1.1.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KeywordDrivenFramework" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="jdk.selected.PLUGIN_MODULE" value="IntelliJ IDEA Community Edition IC-172.4155.36" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Java" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Sunrich_Villas\Imgs" />
+      <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Sunrich_Villas" />
+      <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Docs_files\HtmlCssJs" />
       <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Docs_files" />
       <recent name="F:\Projects\OnGitProjects\Selenium_Practice\VideoRecord\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Sunrich_Villas\Imgs" />
       <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Docs_files\HtmlCssJs" />
       <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Docs_files\Excels" />
       <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Docs_files" />
@@ -365,21 +396,53 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DeleteoneCharacter.InputType_Date">
-    <configuration name="AlertMessages.InputType_Date" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.MouseOver.Mouse_Over">
+    <configuration name="MouseOver" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="Alerts" />
+      <module name="MouseOver" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="Java" />
-      <option name="MAIN_CLASS_NAME" value="Java.AlertMessages" />
-      <option name="METHOD_NAME" value="InputType_Date" />
+      <option name="MAIN_CLASS_NAME" value="Java.MouseOver" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="MouseOver.Mouse_Over" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MouseOver" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="Java" />
+      <option name="MAIN_CLASS_NAME" value="Java.MouseOver" />
+      <option name="METHOD_NAME" value="Mouse_Over" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -398,20 +461,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="DeleteoneCharacter.InputType_Date" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ORWithXML.OR_XML" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="ClearData" />
+      <module name="ObjectRepository" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="Java" />
-      <option name="MAIN_CLASS_NAME" value="Java.DeleteoneCharacter" />
-      <option name="METHOD_NAME" value="InputType_Date" />
+      <option name="MAIN_CLASS_NAME" value="Java.ORWithXML" />
+      <option name="METHOD_NAME" value="OR_XML" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -430,20 +493,26 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GetAllAttributesOfElementWithJS.GetAllAttributesOf_ElementWithJS" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration name="ScrollByPage.ScrollBy_Page" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="SameProperties" />
+      <module name="ScrollBars" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="Java" />
-      <option name="MAIN_CLASS_NAME" value="Java.GetAllAttributesOfElementWithJS" />
-      <option name="METHOD_NAME" value="GetAllAttributesOf_ElementWithJS" />
+      <option name="MAIN_CLASS_NAME" value="Java.ScrollByPage" />
+      <option name="METHOD_NAME" value="ScrollBy_Page" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -462,47 +531,47 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GetAllAttributesOfElement.GetAllAttributesOf_Element" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SameProperties" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="Java" />
-      <option name="MAIN_CLASS_NAME" value="Java.GetAllAttributesOfElement" />
-      <option name="METHOD_NAME" value="GetAllAttributesOf_Element" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="InputTypeDate.InputType_Date" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TEstNG" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="InputTypes" />
+      <module name="TEstNG" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TEstNG/XMLs/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="OUTPUT_DIRECTORY" value="F:\Projects\OnGitProjects\Selenium_Practice\TEstNG\XMLs" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="WriteExcel.Write_Excel" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ExcelReadWrite" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InputTypeDate" />
-      <option name="METHOD_NAME" value="InputType_Date" />
+      <option name="PACKAGE_NAME" value="Basic" />
+      <option name="MAIN_CLASS_NAME" value="Basic.WriteExcel" />
+      <option name="METHOD_NAME" value="Write_Excel" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -536,20 +605,22 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.InputTypeDate.InputType_Date" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.GetAllAttributesOfElement.GetAllAttributesOf_Element" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.GetAllAttributesOfElementWithJS.GetAllAttributesOf_ElementWithJS" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.AlertMessages.InputType_Date" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.DeleteoneCharacter.InputType_Date" />
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Plugin.Plugin" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.TEstNG" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.ORWithXML.OR_XML" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.MouseOver.Mouse_Over" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.ScrollByPage.ScrollBy_Page" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.WriteExcel.Write_Excel" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.MouseOver" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.DeleteoneCharacter.InputType_Date" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.AlertMessages.InputType_Date" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.InputTypeDate.InputType_Date" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.GetAllAttributesOfElementWithJS.GetAllAttributesOf_ElementWithJS" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.GetAllAttributesOfElement.GetAllAttributesOf_Element" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.MouseOver.Mouse_Over" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.MouseOver" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.WriteExcel.Write_Excel" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ScrollByPage.ScrollBy_Page" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.ORWithXML.OR_XML" />
       </list>
     </recent_temporary>
   </component>
@@ -572,70 +643,108 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeleteoneCharacter_InputType_Date - 2018.03.07 at 11h 47m 14s.xml">
-      <configuration name="DeleteoneCharacter.InputType_Date" configurationId="TestNG" />
+    <history-entry file="MouseOver - 2018.07.09 at 09h 40m 11s.xml">
+      <configuration name="MouseOver" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteoneCharacter_InputType_Date - 2018.03.07 at 11h 49m 36s.xml">
-      <configuration name="DeleteoneCharacter.InputType_Date" configurationId="TestNG" />
+    <history-entry file="MouseOver - 2018.07.09 at 09h 40m 31s.xml">
+      <configuration name="MouseOver" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteoneCharacter_InputType_Date - 2018.03.08 at 09h 15m 02s.xml">
-      <configuration name="DeleteoneCharacter.InputType_Date" configurationId="TestNG" />
+    <history-entry file="MouseOver - 2018.07.09 at 09h 41m 14s.xml">
+      <configuration name="MouseOver" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteoneCharacter_InputType_Date - 2018.03.08 at 09h 16m 27s.xml">
-      <configuration name="DeleteoneCharacter.InputType_Date" configurationId="TestNG" />
+    <history-entry file="MouseOver - 2018.07.09 at 09h 43m 13s.xml">
+      <configuration name="MouseOver" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteoneCharacter_InputType_Date - 2018.03.08 at 09h 17m 13s.xml">
-      <configuration name="DeleteoneCharacter.InputType_Date" configurationId="TestNG" />
+    <history-entry file="MouseOver - 2018.07.10 at 09h 18m 26s.xml">
+      <configuration name="MouseOver" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteoneCharacter_InputType_Date - 2018.03.08 at 09h 17m 41s.xml">
-      <configuration name="DeleteoneCharacter.InputType_Date" configurationId="TestNG" />
+    <history-entry file="MouseOver_Mouse_Over - 2018.07.09 at 09h 39m 47s.xml">
+      <configuration name="MouseOver.Mouse_Over" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteoneCharacter_InputType_Date - 2018.03.12 at 09h 20m 47s.xml">
-      <configuration name="DeleteoneCharacter.InputType_Date" configurationId="TestNG" />
+    <history-entry file="MouseOver_Mouse_Over - 2018.07.10 at 09h 19m 55s.xml">
+      <configuration name="MouseOver.Mouse_Over" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteoneCharacter_InputType_Date - 2018.03.12 at 09h 21m 04s.xml">
-      <configuration name="DeleteoneCharacter.InputType_Date" configurationId="TestNG" />
+    <history-entry file="Switch2Tabs_Switch_2Tabs - 2018.05.31 at 11h 55m 11s.xml">
+      <configuration name="Switch2Tabs.Switch_2Tabs" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteoneCharacter_InputType_Date - 2018.03.12 at 09h 22m 05s.xml">
-      <configuration name="DeleteoneCharacter.InputType_Date" configurationId="TestNG" />
+    <history-entry file="TEstNG - 2018.06.26 at 09h 28m 35s.xml">
+      <configuration name="TEstNG" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteoneCharacter_InputType_Date - 2018.03.12 at 09h 28m 13s.xml">
-      <configuration name="DeleteoneCharacter.InputType_Date" configurationId="TestNG" />
+    <history-entry file="Unnamed - 2018.06.12 at 10h 38m 23s.xml">
+      <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288948" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988358" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55627424" sideWeight="0.5025" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27030626" sideWeight="0.4975" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41914618" sideWeight="0.4975" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756326" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.159375" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21079692" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53395474" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4087969" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30359522" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988358" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288948" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55627424" sideWeight="0.5025" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4087883" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288948" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30359522" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44740346" sideWeight="0.4975" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756326" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13688946" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988358" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
@@ -659,409 +768,528 @@
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SameProperties/src/Java/InputSamePropertiesDeleteWithoutclick.java</url>
-          <line>44</line>
+          <url>file://$PROJECT_DIR$/InputTypes/src/InputTypeFile.java</url>
+          <line>21</line>
           <properties />
-          <option name="timeStamp" value="71" />
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SameProperties/src/Java/InputSamePropertiesDeleteWithoutclick.java</url>
-          <line>43</line>
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="72" />
+          <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SameProperties/src/Java/InputSamePropertiesDeleteWithoutclick.java</url>
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
           <line>39</line>
           <properties />
-          <option name="timeStamp" value="73" />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ExcelRead/src/Basic/WriteExcel.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ExcelRead/src/Basic/WriteExcel.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ExcelRead/src/Basic/WriteExcel.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ExcelRead/src/Basic/WriteExcel.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="130" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="90" />
+      <option name="time" value="133" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="value" language="JAVA" />
+        <watch expression="document.getElementById('AccountText').nextSibling.innerHTML;" language="JAVA" />
+        <watch expression="nextSibling" language="JAVA" />
+        <watch expression="innerHTML" language="JAVA" />
+        <watch expression="nextSibling.innerHTML" language="JAVA" />
+        <watch expression="myFunction()" language="JAVA" />
+        <watch expression="document.getElementById('AccountText').nextSibling.innerHTML" language="JAVA" />
+        <watch expression="myFunction();" language="JAVA" />
+        <watch expression="XSSFSheet" language="JAVA" />
+        <watch expression="sheet" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="screen" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DropDowns/src/Java/DropDownOnPoup.java">
+    <entry file="file://$PROJECT_DIR$/Alerts/src/Java/MultipleAlertLabels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelRead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelWriteData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Links/src/Java/FetchWebLinks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="64" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MouseOver/src/Java/MouseOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrollBars/src/Java/HorizontalScroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrollBars/src/Java/ScrollByPixel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tables/src/Java/FetchWebTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tabs/src/Java/Switch2Tabs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEstNG/src/Java/TestNG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoRecord/src/Java/SpecializedScreenRecorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoRecord/src/Java/VideoRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrollBars/src/Java/ScrollByVisibleElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sliders/src/Java/SldersWithSendkeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-427">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TakeScreenShot/src/Java/TakeScreenShot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alerts/src/Java/AlertWithInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buttons/src/Java/ClickButtonWithDiffWays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" column="80" lean-forward="false" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/SamePropertiesDeleteWithID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/InputsSameProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/Inputs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoIT/src/Java/AutoITFileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sliders/src/Java/TwoSliders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/InputSamePropertiesSendkeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/InputSamePropertiesDeleteWithoutclick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrollBars/src/Java/ScrollByPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Library Files/testng-6.11.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="475" column="0" lean-forward="true" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeNumberRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ObjectRepository/src/Java/ORWithXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/parallax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeRadio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypePassword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/PrintOptions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="24" column="68" lean-forward="false" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeCheckBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/AlertDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/GetAllAttributesOfElementWithJS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/GetAllAttributesOfElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/AllInputTypes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="12" lean-forward="false" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeWeek.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/SameProperties.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="74" lean-forward="false" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/SamePropertiesDelete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-238">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Alerts/src/Java/AlertOkButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding />
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Alerts/src/Java/AlertMessages.java">
+    <entry file="file://$PROJECT_DIR$/Alerts/src/Java/AlertWithInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Docs_files/Object Repository/application.properties">
+    <entry file="file://$PROJECT_DIR$/DatabaseTestPgAdmin/src/Java/DatabaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ObjectRepository/src/Java/ORWithPropertiesFile.java">
+    <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/Forms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-103">
+          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/FileUploads.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClearData/src/Java/DeleteoneCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="20" column="64" lean-forward="true" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DatabaseTestPgAdmin/src/Java/DatabaseTestMultiColumn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeRadio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEstNG/src/Java/TestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs_files/AutoITFiles/colorPicker.au3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEstNG/src/Java/Dataprovider_TestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoIT/AutoIT.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng-xslt/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs_files/Object Repository/OrXml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectRepository/src/Java/ORWithXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Robot/src/Main/RobotFileUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoIT/src/Java/AutoITCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoIT/src/Java/AutoITFileUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileUpload/src/Main/FileUplaod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrollBars/src/Java/HorizontalScroll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExcelRead/src/Basic/WriteExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="169" column="30" lean-forward="false" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelWriteData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="140" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/AlertLabel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="48" lean-forward="false" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MouseOver/src/Java/MouseOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alerts/src/Java/AlertLabels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/AlertYesNo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/MultipleAlertLabels.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs_files/HtmlCssJs/AllInputTypes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alerts/src/Java/AlertMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sliders/src/Java/SldersWithSendkeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sliders/src/Java/TwoSliders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEstNG/XMLs/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEstNG/XMLs/example suite 1/Regression suite 1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEstNG/XMLs/example suite 1/Regression suite 1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrollBars/src/Java/ScrollByPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrollBars/src/Java/ScrollByPixel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tabs/src/Java/Switch2Tabs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/InputSamePropertiesDeleteWithoutclick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buttons/src/Java/ClickButtonWithDiffWays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="28" column="61" lean-forward="false" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities/src/Java/PageScrollUpDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities/src/Java/SelectDropdownOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities/src/Java/DriverDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities/src/Java/AlertHandling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities/src/Java/ExlUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities/src/Java/BrowserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

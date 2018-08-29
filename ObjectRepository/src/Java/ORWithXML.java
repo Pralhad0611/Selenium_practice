@@ -10,9 +10,9 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
+import java.awt.*;
 import java.io.File;
-import java.io.FileInputStream;
-import java.util.Properties;
+
 
 public class ORWithXML {
     WebDriver w;
@@ -75,6 +75,7 @@ public class ORWithXML {
         w.findElement(By.linkText("Back")).click();
         Thread.sleep(Long.parseLong(UsrTimeDelay));
         Thread.sleep(Long.parseLong(UsrTimeDelay));
+
 
         w.close();
     }

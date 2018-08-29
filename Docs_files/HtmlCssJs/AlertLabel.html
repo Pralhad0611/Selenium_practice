@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="custom.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js">
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div style="max-width: 253px; margin: auto; border: 1px solid; margin-top: 10px;">
+    <div style=" margin: 8px;">
+        Name : <input style=" padding: 2px 6px; border: 1px solid;" id="AccountText" class="taxMachine" type="text"
+                      name="AccountText" placeholder="Name"/></div>
+
+    <div style="width: fit-content; margin: auto; ">
+        <input style=" padding: 0px 5px;     margin-bottom: 8px;  border: 1px solid" class="button" type="submit"
+               value="submit"></div>
+</div>
+<script>
+$(document).ready(function(){
+   $('.button').click(function(){
+        $("#ErrorMSG").remove();
+        if ( $('#AccountText').val() === "" || $('#AccountText').val() === null || $('#AccountText').val() === undefined )
+        {
+
+        $("#AccountText").after("<label id='ErrorMSG' class='error error3'>Please Enter Value.</label>");
+
+   } else
+        {
+
+        }
+
+    });
+});
+
+
+</script>
+
+</body>
+</html>

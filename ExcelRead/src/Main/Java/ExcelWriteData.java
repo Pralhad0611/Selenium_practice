@@ -13,7 +13,6 @@ public class ExcelWriteData {
             String filepath = filelocation + File.separator + "Docs_files" + File.separator + "Excels" + File.separator + "ExcelWrite.xlsx";
             FileInputStream file = new FileInputStream(new File(filepath));
             XSSFWorkbook workbook = new XSSFWorkbook(file);
-
             XSSFSheet sheet = workbook.getSheetAt(0);
 
             Cell searchText3 = sheet.getRow(0).getCell(0);
@@ -25,9 +24,13 @@ public class ExcelWriteData {
             workbook.write(outFile);
             outFile.close();
 
-        } catch (FileNotFoundException fnfe) {
+        }
+        catch (FileNotFoundException fnfe)
+        {
             fnfe.printStackTrace();
-        } catch (IOException ioe) {
+        }
+        catch (IOException ioe)
+        {
             ioe.printStackTrace();
         }
     }

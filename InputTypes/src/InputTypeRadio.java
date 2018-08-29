@@ -13,7 +13,6 @@ public class InputTypeRadio {
     WebDriver w;
     String filelocation = System.getProperty("user.dir");
     String URL = filelocation + File.separator + "Docs_files" + File.separator + "HtmlCssJs" + File.separator + "AllInputTypes.html";
-    String AutoITFile = filelocation + File.separator + "Docs_files" + File.separator + "AutoITFiles" + File.separator + "File_Upload.exe";
 
     @Test
     public void InputType_Radio() throws InterruptedException, IOException {

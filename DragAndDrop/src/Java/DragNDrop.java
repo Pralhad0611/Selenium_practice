@@ -25,15 +25,10 @@ public class DragNDrop {
         w.manage().deleteAllCookies();
         Thread.sleep(3000);
 
-
         WebElement DraggableElement = w.findElement(By.id("draggable"));
-
         WebElement DroppableElement = w.findElement(By.id("droppable"));
 
-
         Actions act = new Actions(w);
-
-
         act.dragAndDrop(DraggableElement, DroppableElement).build().perform();
 
     }

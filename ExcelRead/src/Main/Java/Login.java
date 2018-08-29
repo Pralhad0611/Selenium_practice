@@ -12,10 +12,9 @@ public class Login {
     WebDriver w;
     String filelocation = System.getProperty("user.dir");
 
-
     @Test
-    public void Login_Excel() throws Exception {
-
+    public void Login_Excel() throws Exception
+    {
 
         ExcelRead excelReadData = new ExcelRead();
         excelReadData.ExcelReading();
@@ -48,4 +47,3 @@ public class Login {
     }
 
 }
-

@@ -2,6 +2,7 @@ package Java;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 import java.io.File;
 import java.io.IOException;
@@ -14,6 +15,7 @@ public class AlertMessages {
 
     @Test
     public void InputType_Date() throws InterruptedException, IOException {
+        Reporter.log("gfgdd",true);
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", ChrmDrvr);
         w = new ChromeDriver();
@@ -38,7 +40,6 @@ public class AlertMessages {
         w.findElement(By.name("Email")).clear();
         Thread.sleep(2000);
 
-
         w.findElement(By.name("Date")).sendKeys("01");
         Thread.sleep(700);
         w.findElement(By.id("subutton")).click();
@@ -47,7 +48,6 @@ public class AlertMessages {
         Thread.sleep(5000);
         w.findElement(By.name("Date")).sendKeys(Keys.DELETE);
         Thread.sleep(2000);
-
 
         w.findElement(By.name("dateMinRange")).sendKeys("01/01/1985");
         Thread.sleep(700);
@@ -58,7 +58,6 @@ public class AlertMessages {
         w.findElement(By.name("dateMinRange")).sendKeys(Keys.DELETE, Keys.TAB, Keys.DELETE, Keys.TAB, Keys.DELETE);
         Thread.sleep(2000);
 
-
         w.findElement(By.name("dateMaxRange")).sendKeys("01/01/1985");
         Thread.sleep(700);
         w.findElement(By.id("subutton")).click();
@@ -67,7 +66,6 @@ public class AlertMessages {
         Thread.sleep(5000);
         w.findElement(By.name("dateMaxRange")).sendKeys(Keys.DELETE, Keys.TAB, Keys.DELETE, Keys.TAB, Keys.DELETE);
         Thread.sleep(2000);
-
 
         w.findElement(By.name("bdaymonth")).sendKeys("September");
         Thread.sleep(700);
@@ -78,7 +76,6 @@ public class AlertMessages {
         w.findElement(By.name("bdaymonth")).sendKeys(Keys.DELETE);
         Thread.sleep(2000);
 
-
         w.findElement(By.name("points")).sendKeys("-100");
         Thread.sleep(700);
         w.findElement(By.id("subutton")).click();
@@ -87,7 +84,6 @@ public class AlertMessages {
         Thread.sleep(5000);
         w.findElement(By.name("points")).clear();
         Thread.sleep(2000);
-
 
         w.findElement(By.name("week_year")).sendKeys("10");
         Thread.sleep(700);

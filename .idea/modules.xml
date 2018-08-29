@@ -4,24 +4,30 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Alerts/Alerts.iml" filepath="$PROJECT_DIR$/Alerts/Alerts.iml" />
       <module fileurl="file://$PROJECT_DIR$/AutoIT/AutoIT.iml" filepath="$PROJECT_DIR$/AutoIT/AutoIT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BaseClass/BaseClass.iml" filepath="$PROJECT_DIR$/BaseClass/BaseClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/Buttons/Buttons.iml" filepath="$PROJECT_DIR$/Buttons/Buttons.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClearData/ClearData.iml" filepath="$PROJECT_DIR$/ClearData/ClearData.iml" />
       <module fileurl="file://$PROJECT_DIR$/DatabaseTestPgAdmin/DatabaseTestPgAdmin.iml" filepath="$PROJECT_DIR$/DatabaseTestPgAdmin/DatabaseTestPgAdmin.iml" />
       <module fileurl="file://$PROJECT_DIR$/DragAndDrop/DragAndDrop.iml" filepath="$PROJECT_DIR$/DragAndDrop/DragAndDrop.iml" />
       <module fileurl="file://$PROJECT_DIR$/DropDowns/DropDowns.iml" filepath="$PROJECT_DIR$/DropDowns/DropDowns.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExcelRead/ExcelReadWrite.iml" filepath="$PROJECT_DIR$/ExcelRead/ExcelReadWrite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileUpload/FileUpload.iml" filepath="$PROJECT_DIR$/FileUpload/FileUpload.iml" />
       <module fileurl="file://$PROJECT_DIR$/InputTypes/InputTypes.iml" filepath="$PROJECT_DIR$/InputTypes/InputTypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JsonReadWrite/JsonReadWrite.iml" filepath="$PROJECT_DIR$/JsonReadWrite/JsonReadWrite.iml" />
       <module fileurl="file://$PROJECT_DIR$/Links/Links.iml" filepath="$PROJECT_DIR$/Links/Links.iml" />
       <module fileurl="file://$PROJECT_DIR$/MouseOver/MouseOver.iml" filepath="$PROJECT_DIR$/MouseOver/MouseOver.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObjectRepository/ObjectRepository.iml" filepath="$PROJECT_DIR$/ObjectRepository/ObjectRepository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Robot/Robot.iml" filepath="$PROJECT_DIR$/Robot/Robot.iml" />
       <module fileurl="file://$PROJECT_DIR$/SameProperties/SameProperties.iml" filepath="$PROJECT_DIR$/SameProperties/SameProperties.iml" />
       <module fileurl="file://$PROJECT_DIR$/ScrollBars/ScrollBars.iml" filepath="$PROJECT_DIR$/ScrollBars/ScrollBars.iml" />
       <module fileurl="file://$PROJECT_DIR$/Selenium_Practice.iml" filepath="$PROJECT_DIR$/Selenium_Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sikuli/Sikuli.iml" filepath="$PROJECT_DIR$/Sikuli/Sikuli.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sliders/Sliders.iml" filepath="$PROJECT_DIR$/Sliders/Sliders.iml" />
       <module fileurl="file://$PROJECT_DIR$/TEstNG/TEstNG.iml" filepath="$PROJECT_DIR$/TEstNG/TEstNG.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tables/Tables.iml" filepath="$PROJECT_DIR$/Tables/Tables.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tabs/Tabs.iml" filepath="$PROJECT_DIR$/Tabs/Tabs.iml" />
       <module fileurl="file://$PROJECT_DIR$/TakeScreenShot/TakeScreenShot.iml" filepath="$PROJECT_DIR$/TakeScreenShot/TakeScreenShot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Utilities/Utilities.iml" filepath="$PROJECT_DIR$/Utilities/Utilities.iml" />
       <module fileurl="file://$PROJECT_DIR$/VideoRecord/VideoRecord.iml" filepath="$PROJECT_DIR$/VideoRecord/VideoRecord.iml" />
     </modules>
   </component>

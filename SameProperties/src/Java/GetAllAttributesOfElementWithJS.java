@@ -25,6 +25,7 @@ public class GetAllAttributesOfElementWithJS {
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", ChrmDrvr);
         w = new ChromeDriver(capabilities);
+
         w.manage().window().maximize();
         w.navigate().to(URL);
         w.manage().deleteAllCookies();

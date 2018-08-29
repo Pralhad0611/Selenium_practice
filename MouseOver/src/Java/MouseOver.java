@@ -6,19 +6,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
-
 import java.io.File;
 
-public class MouseOver {
-
+public class MouseOver
+{
     WebDriver w;
     String filelocation = System.getProperty("user.dir");
 
-
     @Test
-    public void Mouse_Over() throws Exception {
-
-
+    public void Mouse_Over() throws Exception
+    {
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", ChrmDrvr);
         w = new ChromeDriver();
@@ -33,10 +30,9 @@ public class MouseOver {
         Thread.sleep(2000);
 
         WebElement w2 = w.findElement(By.linkText("Java"));
-        Actions a2 = new Actions(w);
-        ActionFirst.moveToElement(w2).build().perform();
+        Actions ActionSecond = new Actions(w);
+        ActionSecond.moveToElement(w2).build().perform();
         Thread.sleep(2000);
         w.findElement(By.linkText("Selenium & Cucumber Basic Tutorial")).click();
-
     }
 }

@@ -6,12 +6,31 @@ import org.testng.annotations.Test;
 public class TestNG {
 
     @Test
-    public void ss() {
-
+    public void TestCase1()
+    {
+        System.out.println("TestCase1");
     }
 
-    @BeforeTest
-    public void sss() {
+    @Test
+    public void TestCase2()   { System.out.println("TestCase2"); }
 
+    @Test
+    public void TestCase3()
+    {
+        System.out.println("TestCase3");
     }
+
+    @Test
+    public void TestCase4()
+    {
+        System.out.println("TestCase4");
+    }
+
+    @Test
+    public void TestCase5()
+    {
+        System.out.println("TestCase5");
+    }
+
+
 }

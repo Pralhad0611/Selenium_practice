@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="mystyle.css">
+    </link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+
+
+.commonCSS
+{
+ position: absolute;
+  transform: translate(-50%, -50%);
+}
+.fontCSS
+{
+ font-size: 100px;
+font-family: cursive;
+
+}
+
+    .ClickHi
+    {
+    top: 29%;
+    left: 37%;
+   }
+
+   .ClickHow
+    {
+    top: 10%;
+    left: 86%;
+    }
+
+    .ClickNever2
+    {
+    top: 89%;
+    left: 83%
+    }
+
+    .ClickAre
+     {
+        top: 50%;
+    left: 58%;
+     }
+
+    .ClickYou
+     {
+       top: 70%;
+    left: 15%;
+     }
+
+     .ClickQM
+      {
+    top: 29%;
+    left: 15%;
+      }
+
+
+    .ClickFine
+       {
+      top: 50%;
+    left: 82%;
+       }
+
+
+        .ClickYes
+        {
+   top: 29%;
+    left: 58%;
+        }
+
+            .ClickExpose
+        {
+   top: 29%;
+    left: 82%;
+        }
+
+    .ClickNo
+        {
+      top: 89%;
+    left: 38%;
+        }
+
+
+@keyframes blink-animation {
+    100% { opacity: 1;}
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+  }
+
+  @keyframes alt-blink-animation {
+     100% { opacity: 0;}
+    0% { opacity: 1;}
+    100% { opacity: 0;}
+  }
+
+  .ClickRemember
+        {
+   top: 10%;
+   left: 21%;
+        }
+
+         .ClickOne
+        {
+        top: 70%;
+    left: 61%;
+       }
+
+      .ClickThing
+        {
+    top: 89%;
+    left: 14%;
+      }
+
+.ClickOnly
+        {
+        top: 10%;
+    left: 48%;
+       }
+
+     .ClickNever
+        {
+       top: 10%;
+    left: 67%;
+        }
+
+ .ClickYour2
+    {
+     top: 89%;
+    left: 61%;
+    }
+
+     .ClickLove
+      {
+       top: 50%;
+    left: 15%
+      }
+
+     .ClickThing2
+     {
+       top: 70%;
+    left: 82%;
+     }
+
+     .ClickEver
+     {
+   top: 70%;
+    left: 37%;
+     }
+
+       .ClickONE
+      {
+       top: 50%;
+    left: 37%;
+      }
+
+    </style>
+</head>
+<body>
+<div class="ClickHi fontCSS commonCSS" >Hi ...!!!</div>
+<div class="ClickHow fontCSS commonCSS" >How</div>
+<div class="ClickAre fontCSS commonCSS"  > are</div>
+<div class="ClickYou fontCSS commonCSS" >you</div>
+<div class="ClickQM fontCSS commonCSS">..??</div>
+<div class="ClickFine fontCSS commonCSS">Fine..??</div>
+<div class="ClickYes fontCSS commonCSS"  style="animation: blink-animation 1s infinite;">Yes</div>
+<div class="ClickNo fontCSS commonCSS" style="animation: alt-blink-animation 1s infinite;">No</div>
+<div class="ClickRemember fontCSS commonCSS" >Remember</div>
+<div class="ClickOne fontCSS commonCSS" >One</div>
+<div class="ClickThing fontCSS commonCSS" >Thing</div>
+<div class="ClickOnly fontCSS commonCSS">only</div>
+<div class="ClickONE fontCSS commonCSS" >ONE</div>
+<div class="ClickThing2 fontCSS commonCSS" >Thing</div>
+<div class="ClickNever2 fontCSS commonCSS" >Never</div>
+<div class="ClickNever fontCSS commonCSS">never</div>
+<div class="ClickEver fontCSS commonCSS" >Ever</div>
+<div class="ClickExpose fontCSS commonCSS">Expose</div>
+<div class="ClickYour2 fontCSS commonCSS">Your</div>
+<div class="ClickLove fontCSS commonCSS" style="color: Red;">Love</div>
+</body>
+
+<script>
+$(window).on('load', function() {
+$('.ClickRemember').hide(); $('.ClickOnly').hide(); $('.ClickNever').hide(); $('.ClickHow').hide();
+$('.ClickQM').hide(); $('.ClickYes').hide(); $('.ClickExpose').hide();
+$('.ClickLove').hide(); $('.ClickONE').hide(); $('.ClickAre').hide(); $('.ClickFine').hide();
+$('.ClickYou').hide(); $('.ClickEver').hide(); $('.ClickOne').hide(); $('.ClickThing2').hide();
+$('.ClickThing').hide(); $('.ClickNo').hide(); $('.ClickYour2').hide(); $('.ClickNever2').hide();
+
+    $(".ClickHi").click(function(){        $('.ClickHow').show();       $('.ClickHi').hide();    });
+
+     $(".ClickHow").click(function(){       $('.ClickAre').show();       $('.ClickHow').hide();    });
+
+    $(".ClickAre").click(function(){       $('.ClickYou').show();       $('.ClickAre').hide();    });
+
+    $(".ClickYou ").click(function(){       $('.ClickQM').show();       $('.ClickYou').hide();    });
+
+    $(".ClickQM").click(function(){       $('.ClickFine').show();       $('.ClickQM').hide();    });
+
+    $(".ClickFine").click(function(){        $('.ClickYes').show();  $('.ClickNo').show();       $('.ClickFine').hide();    });
+
+     $(".ClickYes").click(function(){        $('.ClickRemember').show();       $('.ClickNo').hide(); $('.ClickYes').hide();    });
+
+     $(".ClickNo").click(function(){        $('.ClickRemember').show();       $('.ClickNo').hide();  $('.ClickYes').hide();    });
+
+     $(".ClickRemember").click(function(){       $('.ClickOne').show();       $('.ClickRemember').hide();    });
+
+    $(".ClickOne").click(function(){       $('.ClickThing').show();       $('.ClickOne').hide();    });
+
+    $(".ClickThing ").click(function(){       $('.ClickOnly').show();       $('.ClickThing').hide();    });
+
+    $(".ClickOnly").click(function(){       $('.ClickONE').show();       $('.ClickOnly').hide();    });
+
+    $(".ClickONE").click(function(){        $('.ClickThing2').show();       $('.ClickONE').hide();    });
+
+    $(".ClickThing2").click(function(){       $('.ClickNever').show();       $('.ClickThing2').hide();    });
+
+    $(".ClickNever").click(function(){       $('.ClickNever2').show();       $('.ClickNever').hide();    });
+
+    $(".ClickNever2 ").click(function(){       $('.ClickEver').show();       $('.ClickNever2').hide();    });
+
+    $(".ClickEver").click(function(){       $('.ClickExpose').show();       $('.ClickEver').hide();    });
+
+    $(".ClickExpose").click(function(){        $('.ClickYour2').show();       $('.ClickExpose').hide();    });
+
+    $(".ClickYour2").click(function(){        $('.ClickLove').show();       $('.ClickYour2').hide();    });
+
+    $(".ClickLove").click(function(){
+         $('.ClickRemember').show(); $('.ClickOnly').show(); $('.ClickNever').show(); $('.ClickHow').show();
+$('.ClickQM').show(); $('.ClickYes').show(); $('.ClickExpose').show();
+$('.ClickLove').show(); $('.ClickONE').show(); $('.ClickAre').show(); $('.ClickFine').show();
+$('.ClickYou').show(); $('.ClickEver').show(); $('.ClickOne').show(); $('.ClickThing2').show();
+$('.ClickThing').show(); $('.ClickNo').show(); $('.ClickYour2').show(); $('.ClickNever2').show();
+          $('.ClickLove').show();  $('.ClickHi').show();    });
+
+
+    });
+
+
+</script>
+</html>

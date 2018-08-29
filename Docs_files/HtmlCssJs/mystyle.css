@@ -6,7 +6,7 @@
 .bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0;}
 .button{white-space:normal;width:100%:border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;
 color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap;-webkit-touch-callout:none;-webkit-user-select:none;
--khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none; border: 0.1px solid #e6e4e4;}
+-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none; border: 0.1px solid #000000;}
 
 .button:hover{color:#000!important;background-color:#ccc!important;}
 
@@ -37,3 +37,8 @@ color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-sp
  color: rebeccapurple;
    opacity: 1.0;
 }
+
+.error {
+    color: red;
+       margin-bottom: 0px;
+    text-align: center;

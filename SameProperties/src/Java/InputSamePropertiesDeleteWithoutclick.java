@@ -13,17 +13,16 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.util.List;
 
-public class InputSamePropertiesDeleteWithoutclick {
+public class InputSamePropertiesDeleteWithoutclick
+{
     WebDriver w;
     String filelocation = System.getProperty("user.dir");
 
-
     @Test
-    public void InputSameProperties_DeleteWithoutclick() throws Exception {
-
+    public void InputSameProperties_DeleteWithoutclick() throws Exception
+    {
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
-
         String URL = filelocation + File.separator + "Docs_files" + File.separator + "HtmlCssJs" + File.separator + "Inputs.html";
 
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
@@ -39,11 +38,10 @@ public class InputSamePropertiesDeleteWithoutclick {
 
         System.out.println(WebInput.size());
 
-
         JavascriptExecutor js = (JavascriptExecutor) w;
-        for (int i = 0; i < WebInput.size(); i++) {
+        for (int i = 0; i < WebInput.size(); i++)
+        {
             js.executeScript("arguments[0].parentNode.removeChild(arguments[0])", WebInput.get(i));
-
         }
         Thread.sleep(5000);
         w.close();

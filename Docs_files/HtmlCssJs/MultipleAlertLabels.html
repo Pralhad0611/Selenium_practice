@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+.formFields {
+float: left;
+    height: 76px;
+   width: 25%;
+
+    }
+
+    .inputFields
+    {
+    height: 76px;
+    width: 262px;
+        float: left;
+    }
+
+    .submitButton
+    {
+    padding: 0px 5px;
+    margin-bottom: 8px;
+     border: 1px solid;
+       margin-top: 15px;
+       margin-top: 30px;
+
+    }
+.AddressText
+{
+     max-height: 68px;
+    max-width: 260px;
+    padding: 2px 6px;
+    min-width: 260px;
+    border: 1px solid;
+    min-height: 68px;
+}
+
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="custom.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js">
+
+
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div style="max-width: 368px; margin: auto; border: 1px solid; margin-top: 10px;">
+    <div style=" margin: 8px;">
+        <div class="formFields"> Name :</div>
+        <div class="inputFields"><input style=" padding: 2px 6px; border: 1px solid;     width: 260px;" id="AccountText"
+                                        type="text"
+                                        name="AccountText" placeholder="Name"/></div>
+    </div>
+
+    <div style=" margin: 8px;">
+        <div class="formFields"> Email :</div>
+        <div class="inputFields"><input style=" padding: 2px 6px; border: 1px solid;     width: 260px;" id="email"
+                                        type="email"
+                                        name="email" placeholder="Email"/></div>
+    </div>
+
+    <div style=" margin: 8px;">
+        <div class="formFields"> Address :</div>
+        <div class="inputFields">
+            <textarea class="AddressText" id="Address"
+                      name="Address" placeholder="Address"></textarea></div>
+    </div>
+    <div style="width: fit-content; margin: auto; ">
+        <input class=" submitButton button" type="submit"
+               value="submit"></div>
+</div>
+<script>
+$(document).ready(function(){
+   $('.button').click(function(){
+        $("#ErrorMSG").remove();
+        $("#AddressErrorMSG").remove();
+        $("#emailErrorMSG").remove();
+        if ( $('#AccountText').val() === "" || $('#AccountText').val() === null || $('#AccountText').val() === undefined )
+        {
+
+        $("#AccountText").after("<label id='ErrorMSG' class='error error3'>Please Enter Name.</label>");
+
+   }
+   if ( $('#Address').val() === "" || $('#Address').val() === null || $('#Address').val() === undefined )
+        {
+
+        $("#Address").after("<label id='AddressErrorMSG' class='error error3'>Please Enter Address.</label>");
+
+   }
+   if ( $('#email').val() === "" || $('#email').val() === null || $('#email').val() === undefined )
+        {
+
+        $("#email").after("<label id='emailErrorMSG' class='error error3'>Please Enter Mail.</label>");
+
+   }
+
+    });
+});
+
+
+
+
+</script>
+
+</body>
+</html>

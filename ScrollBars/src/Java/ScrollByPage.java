@@ -8,15 +8,15 @@ import org.testng.annotations.Test;
 import java.io.File;
 
 public class ScrollByPage
-
 {
     WebDriver w;
     String filelocation = System.getProperty("user.dir");
 
     @Test
-    public void ScrollBy_Page() throws Exception {
-
+    public void ScrollBy_Page() throws Exception
+    {
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
+        System.out.println(ChrmDrvr);
         System.setProperty("webdriver.chrome.driver", ChrmDrvr);
         w = new ChromeDriver();
         w.manage().window().maximize();
