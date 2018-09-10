@@ -22,7 +22,7 @@ public class ORWithXML {
     public void OR_XML() throws Exception {
 
 
-        String PropertiesFile = filelocation + File.separator + "Docs_files" + File.separator + "Object Repository" + File.separator + "OrXml.xml";
+        String PropertiesFile = filelocation + File.separator + "Docs_files" + File.separator + "Object Repository" + File.separator + "Or+Xml.xml";
 
         SAXReader saxReader = new SAXReader();
         Document XMLdocument = saxReader.read(PropertiesFile);

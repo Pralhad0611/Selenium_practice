@@ -42,7 +42,7 @@ public class DropDownByValue {
 
         List<WebElement> optins = sElementDropDown.getOptions();
         System.out.println(optins.size());
-        int iDropElement = 1;
+        int 0 = 1;
         for (WebElement ww : optins) {
             if (ww.getText().trim().equalsIgnoreCase(CountryName)) {
 

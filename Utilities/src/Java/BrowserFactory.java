@@ -7,14 +7,14 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class BrowserFactory {
     private static DriverDataSource dataSource;
 
-    static {
+    static
+    {
         dataSource = new DriverDataSource();
     }
 
-    public BrowserFactory() {
-
+    public BrowserFactory()
+    {
     }
-
 
     public static DriverDataSource getOpenChrome() throws Exception {
         System.setProperty("webdriver.chrome.driver", "F:/chromedriver.exe");

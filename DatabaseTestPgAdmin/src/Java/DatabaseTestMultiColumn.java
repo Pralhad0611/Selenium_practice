@@ -52,7 +52,6 @@ public class DatabaseTestMultiColumn {
             }
         }
 
-
         con.close();
 
 

@@ -24,7 +24,6 @@ public class AlertOkButton {
         w.manage().deleteAllCookies();
         Thread.sleep(3000);
 
-
         w.findElement(By.xpath("//html/body/button")).click();
         Thread.sleep(3000);
         Alert alert = w.switchTo().alert();
