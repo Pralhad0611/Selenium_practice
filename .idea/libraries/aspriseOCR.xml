@@ -95,6 +95,23 @@
       <root url="jar://F:/Library Files/rest-assured-3.1.1-deps/httpmime-4.5.1.jar!/" />
       <root url="jar://F:/Library Files/rest-assured-3.1.1-deps/jaxb-api-2.2.12.jar!/" />
       <root url="jar://F:/Library Files/rest-assured-3.1.1-deps/tagsoup-1.2.1.jar!/" />
+      <root url="jar://F:/Library Files/htmlunit-driver-2.32.1.jar!/" />
+      <root url="jar://F:/Library Files/selenium-htmlunit-driver-2.2.0.jar!/" />
+      <root url="jar://F:/Library Files/selenium-server-standalone-2.53.0 .jar!/" />
+      <root url="jar://F:/Library Files/htmlunit-driver-2.32.0/htmlunit-driver-2.32.0.jar!/" />
+      <root url="jar://F:/Library Files/htmlunit-driver-standalone/htmlunit-driver-standalone-2.20.jar!/" />
+      <root url="jar://F:/Library Files/htmlunit-cssparser JAR/htmlunit-cssparser-1.0.0.jar!/" />
+      <root url="jar://F:/Library Files/selenium-java-3.14.0/client-combined-3.14.0.jar!/" />
+      <root url="jar://F:/Library Files/selenium-java-3.14.0/libs/okio-1.14.1.jar!/" />
+      <root url="jar://F:/Library Files/selenium-java-3.14.0/libs/okhttp-3.10.0.jar!/" />
+      <root url="jar://F:/Library Files/selenium-java-3.14.0/libs/httpcore-4.4.9.jar!/" />
+      <root url="jar://F:/Library Files/selenium-java-3.14.0/libs/httpclient-4.5.5.jar!/" />
+      <root url="jar://F:/Library Files/selenium-java-3.14.0/libs/guava-25.0-jre.jar!/" />
+      <root url="jar://F:/Library Files/selenium-java-3.14.0/libs/commons-logging-1.2.jar!/" />
+      <root url="jar://F:/Library Files/selenium-java-3.14.0/libs/commons-exec-1.3.jar!/" />
+      <root url="jar://F:/Library Files/selenium-java-3.14.0/libs/commons-codec-1.10.jar!/" />
+      <root url="jar://F:/Library Files/selenium-java-3.14.0/libs/byte-buddy-1.8.15.jar!/" />
+      <root url="jar://F:/Library Files/htmlunit-driver-standalone/selenium-server-standalone-2.53.0 (1).jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://F:/Library Files/commons-validator-1.6/commons-validator-1.6-javadoc.jar!/" />
@@ -102,6 +119,7 @@
       <root url="jar://F:/Library Files/docs/rest-assured-3.1.1-javadoc.jar!/" />
       <root url="jar://F:/Library Files/docs/rest-assured-common-3.1.1-javadoc.jar!/" />
       <root url="jar://F:/Library Files/docs/xml-path-3.1.1-javadoc.jar!/" />
+      <root url="jar://F:/Library Files/htmlunit-driver-2.32.0/htmlunit-driver-2.32.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://F:/Library Files/java-json.jar!/" />
@@ -116,6 +134,8 @@
       <root url="jar://F:/Library Files/docs/rest-assured-3.1.1-sources.jar!/" />
       <root url="jar://F:/Library Files/docs/rest-assured-common-3.1.1-sources.jar!/" />
       <root url="jar://F:/Library Files/docs/xml-path-3.1.1-sources.jar!/" />
+      <root url="jar://F:/Library Files/htmlunit-driver-2.32.0/htmlunit-driver-2.32.0-sources.jar!/" />
+      <root url="jar://F:/Library Files/selenium-java-3.14.0/client-combined-3.14.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

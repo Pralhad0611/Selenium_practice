@@ -28,9 +28,9 @@ public class JsonWrite {
 
         obj.put("messages", list);
 
-        try (FileWriter file = new FileWriter(JsonFileWrite)) {
-
-            file.write(obj.toString());
+        try (FileWriter file = new FileWriter(JsonFileWrite))
+        {
+           file.write(obj.toString());
             file.flush();
 
         } catch (IOException e) {

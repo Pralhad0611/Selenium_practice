@@ -1,4 +1,6 @@
 package Main.Java;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 
@@ -6,9 +8,11 @@ import java.io.File;
 
 public class DataProviderRead
 {
-    String ello;
+    String filelocation = System.getProperty("user.dir");
+    WebDriver driver;
     DataProviderExcelRead dataProviderExcelRead = new DataProviderExcelRead();
    public static String SheetName= "sheet1";
+    String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
 
 
         @DataProvider
@@ -21,18 +25,12 @@ public class DataProviderRead
     @Test(dataProvider="getData")
     public void validateCreateNewContact(String one, String two, String three, String four,String five,
                                          String six, String seven, String eight, String nine,String ten ){
+        System.setProperty("webdriver.chrome.driver", ChrmDrvr);
+        driver=new ChromeDriver();
+
 
         //contactsPage.createNewContact("Mr.", "Tom", "Peter", "Google");
-        System.out.println(one);
-        System.out.println(two);
-        System.out.println(three);
-        System.out.println(four);
-        System.out.println(five);
-        System.out.println(six);
-        System.out.println(seven);
-        System.out.println(eight);
-        System.out.println(nine);
-        System.out.println(ten);
+        System.out.println(one+" "+two+" "+three+" "+four+" "+five+" "+six+" "+seven+" "+eight+" "+nine+""+ten);
 
     }
 

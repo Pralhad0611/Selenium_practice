@@ -4,7 +4,6 @@ package Java;
 import org.json.JSONException;
 import org.json.JSONTokener;
 import org.json.simple.JSONObject;
-
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -15,7 +14,6 @@ import java.util.Iterator;
 
 
 public class JsonRead {
-
 
         WebDriver w;
             String filelocation = System.getProperty("user.dir");
@@ -41,7 +39,6 @@ public class JsonRead {
 
                     String type = (String) jsonObject.get("type");
                     System.out.println(type);
-
 
                     // loop array
                     JSONArray code = (JSONArray) jsonObject.get("code");

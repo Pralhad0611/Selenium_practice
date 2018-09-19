@@ -10,7 +10,8 @@ import javax.swing.*;
 import java.io.File;
 
 
-public class DropDownOnPoup {
+public class DropDownOnPoup
+{
 
     JFrame f;
     WebDriver w;
@@ -18,8 +19,8 @@ public class DropDownOnPoup {
     String filelocation = System.getProperty("user.dir");
 
     @Test
-    public void DropDown_ByValue() throws Exception {
-
+    public void DropDown_ByValue() throws Exception
+    {
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 
@@ -36,7 +37,6 @@ public class DropDownOnPoup {
         String pp = "hello";
         JavascriptExecutor js = (JavascriptExecutor) w;
         js.executeScript("function myFunction(" + pp + "){    Country = prompt('Please enter Country name:', '').toUpperCase();    return Country; var intro = document.createElement('p'); var s;      document.getElementsByTagName('p').innerHTML = myFunction(s);", "");
-
 
         Thread.sleep(3000);
 

@@ -9,7 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
-
 import java.awt.*;
 import java.io.File;
 
@@ -19,14 +18,13 @@ public class ORWithXML {
     String filelocation = System.getProperty("user.dir");
 
     @Test
-    public void OR_XML() throws Exception {
+    public void OR_XML() throws Exception
+    {
 
-
-        String PropertiesFile = filelocation + File.separator + "Docs_files" + File.separator + "Object Repository" + File.separator + "Or+Xml.xml";
+        String PropertiesFile = filelocation + File.separator + "Docs_files" + File.separator + "Object Repository" + File.separator + "OrXml.xml";
 
         SAXReader saxReader = new SAXReader();
         Document XMLdocument = saxReader.read(PropertiesFile);
-
 
         String UsrName = XMLdocument.selectSingleNode("//menu/name").getText();
         String UsrNameValue = XMLdocument.selectSingleNode("//menu/nameValue").getText();
@@ -42,7 +40,6 @@ public class ORWithXML {
         String Subttn = XMLdocument.selectSingleNode("//menu/submitBttn").getText();
 
         String UsrTimeDelay = XMLdocument.selectSingleNode("//menu/timedelay").getText();
-
 
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
@@ -75,7 +72,6 @@ public class ORWithXML {
         w.findElement(By.linkText("Back")).click();
         Thread.sleep(Long.parseLong(UsrTimeDelay));
         Thread.sleep(Long.parseLong(UsrTimeDelay));
-
 
         w.close();
     }

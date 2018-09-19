@@ -2,26 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc3bb615-f601-4204-8c7e-a70b5af97537" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderExcelRead.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderRead.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/REST/REST.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/REST/src/Rest_assured.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataProvider/DataProvider.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataProvider/src/DataProviderExcelRead/DataProviderExcelReadUtility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataProvider/src/DataProviderExcelRead/TestDataProviderRead.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataProvider/src/Dataprovider_TestNG.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FramesSwitch/FramesSwitch.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FramesSwitch/src/SwitchToFrameIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FramesSwitch/src/SwitchToFrame_ID.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HeadlessBroweser/HeadlessBroweser.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HeadlessBroweser/src/HtmlUnitDriverHeadless.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HeadlessBroweser/src/PhantomHeadless.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/REST/src/JOB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/REST/src/POST_Request.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/REST/src/ResponseJSON.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/REST/src/ValidateResponseHeader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Waits/Waits.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Waits/src/ExplicitWait.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Waits/src/FluentWait.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Waits/src/ImplicitWait.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Docs_files/Excels/ExcelWrite.xlsx" afterPath="$PROJECT_DIR$/Docs_files/Excels/ExcelWrite.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Links/Java/FetchWebLinks.class" afterPath="$PROJECT_DIR$/out/production/Links/Java/FetchWebLinks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ScrollBars/Java/ScrollByPage.class" afterPath="$PROJECT_DIR$/out/production/ScrollBars/Java/ScrollByPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ScrollBars/Java/ScrollByPixel.class" afterPath="$PROJECT_DIR$/out/production/ScrollBars/Java/ScrollByPixel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Tabs/Java/Switch2Tabs.class" afterPath="$PROJECT_DIR$/out/production/Tabs/Java/Switch2Tabs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AutoIT/Java/AutoITFileUpload.class" afterPath="$PROJECT_DIR$/out/production/AutoIT/Java/AutoITFileUpload.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ExcelReadWrite/Main/Java/DataProviderExcelRead.class" afterPath="$PROJECT_DIR$/out/production/ExcelReadWrite/Main/Java/DataProviderExcelRead.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ExcelReadWrite/Main/Java/DataProviderRead.class" afterPath="$PROJECT_DIR$/out/production/ExcelReadWrite/Main/Java/DataProviderRead.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/REST/Rest_assured.class" afterPath="$PROJECT_DIR$/out/production/REST/Rest_assured.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/aspriseOCR.xml" afterPath="$PROJECT_DIR$/.idea/libraries/aspriseOCR.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alerts/src/Java/AlertOkButton.java" afterPath="$PROJECT_DIR$/Alerts/src/Java/AlertOkButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DatabaseTestPgAdmin/src/Java/DatabaseTestMultiColumn.java" afterPath="$PROJECT_DIR$/DatabaseTestPgAdmin/src/Java/DatabaseTestMultiColumn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DropDowns/src/Java/DropDownByValue.java" afterPath="$PROJECT_DIR$/DropDowns/src/Java/DropDownByValue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelRead.java" afterPath="$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelRead.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoIT/src/Java/AutoITCalculator.java" afterPath="$PROJECT_DIR$/AutoIT/src/Java/AutoITCalculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoIT/src/Java/AutoITFileUpload.java" afterPath="$PROJECT_DIR$/AutoIT/src/Java/AutoITFileUpload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DropDowns/src/Java/DropDownOnPoup.java" afterPath="$PROJECT_DIR$/DropDowns/src/Java/DropDownOnPoup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderRead.java" afterPath="$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderRead.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsonReadWrite/src/Java/JsonRead.java" afterPath="$PROJECT_DIR$/JsonReadWrite/src/Java/JsonRead.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsonReadWrite/src/Java/JsonWrite.java" afterPath="$PROJECT_DIR$/JsonReadWrite/src/Java/JsonWrite.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ObjectRepository/src/Java/ORWithXML.java" afterPath="$PROJECT_DIR$/ObjectRepository/src/Java/ORWithXML.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScrollBars/src/Java/ScrollByVisibleElement.java" afterPath="$PROJECT_DIR$/ScrollBars/src/Java/ScrollByVisibleElement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tabs/src/Java/Switch2Tabs.java" afterPath="$PROJECT_DIR$/Tabs/src/Java/Switch2Tabs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Utilities/src/Java/BrowserFactory.java" afterPath="$PROJECT_DIR$/Utilities/src/Java/BrowserFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/REST/REST.iml" afterPath="$PROJECT_DIR$/REST/REST.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/REST/src/Rest_assured.java" afterPath="$PROJECT_DIR$/REST/src/Rest_assured.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,21 +48,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MultipleAlertLabels.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Alerts/src/Java/MultipleAlertLabels.java">
+      <file leaf-file-name="ClickButtonWithDiffWays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buttons/src/Java/ClickButtonWithDiffWays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            <state relative-caret-position="51">
+              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rest_assured.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/REST/src/Rest_assured.java">
+      <file leaf-file-name="PhantomHeadless.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HeadlessBroweser/src/PhantomHeadless.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,21 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WriteExcel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExcelRead/src/Basic/WriteExcel.java">
+      <file leaf-file-name="TestDataProviderRead.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataProvider/src/DataProviderExcelRead/TestDataProviderRead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataProviderExcelRead.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderExcelRead.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="36" column="14" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="14" />
+            <state relative-caret-position="103">
+              <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,31 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExcelWriteData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelWriteData.java">
+      <file leaf-file-name="ExplicitWait.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Waits/src/ExplicitWait.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataProviderRead.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderRead.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,32 +94,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataProviderMethodMatcher.class" pinned="false" current-in-tab="false">
-        <entry file="jar://F:/Library Files/testng-6.11.jar!/org/testng/internal/reflect/DataProviderMethodMatcher.class">
+      <file leaf-file-name="FluentWait.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Waits/src/FluentWait.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="235">
+              <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwitchToFrame_ID.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FramesSwitch/src/SwitchToFrame_ID.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwitchToFrameIndex.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FramesSwitch/src/SwitchToFrameIndex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImplicitWait.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Waits/src/ImplicitWait.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="44" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="17" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebDriver.java" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/Library Files/selenium-java-2.53.0/selenium-2.53.0/selenium-java-2.53.0-srcs.jar!/org/openqa/selenium/WebDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="361" column="14" lean-forward="false" selection-start-line="361" selection-start-column="14" selection-end-line="361" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExcelRead.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelRead.java">
+      <file leaf-file-name="DataProviderExcelReadUtility.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataProvider/src/DataProviderExcelRead/DataProviderExcelReadUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Method.java" pinned="false" current-in-tab="false">
-        <entry file="jar://F:/Library Files/docs/rest-assured-3.1.1-sources.jar!/io/restassured/http/Method.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,13 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>taxMachine</find>
-      <find>img</find>
-      <find>.js</find>
-      <find>Clickpopup</find>
-      <find>ClickThing2</find>
-      <find>ClickNever</find>
-      <find>QM</find>
       <find>kHi</find>
       <find>you</find>
       <find>one</find>
@@ -189,6 +207,13 @@
       <find>js.e</find>
       <find>acc</find>
       <find>aler</find>
+      <find>setProperty</find>
+      <find>System.s</find>
+      <find>cssse</find>
+      <find>geta</find>
+      <find>datapro</find>
+      <find>dataprovider</find>
+      <find>desire</find>
     </findStrings>
     <replaceStrings>
       <replace>ClickHi</replace>
@@ -206,30 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/Linedrop.html" />
-        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/lineDrop2.html" />
-        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/loading.html" />
-        <option value="$PROJECT_DIR$/TakeScreenShot/src/Java/TakeScreenShot.java" />
-        <option value="$PROJECT_DIR$/Sunrich_Villas/SunrichVillasCSS.css" />
-        <option value="$PROJECT_DIR$/Sunrich_Villas/SunrichVillas_Dashboard.html" />
-        <option value="$PROJECT_DIR$/Docs_files/HtmlCssJs/checkBox.html" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeFile.java" />
-        <option value="$PROJECT_DIR$/SameProperties/src/Java/GetAllAttributesOfElementWithJS.java" />
-        <option value="$PROJECT_DIR$/Docs_files/Jsons/colors.json" />
-        <option value="$PROJECT_DIR$/JsonReadWrite/src/Java/JsonWrite.java" />
-        <option value="$PROJECT_DIR$/JsonReadWrite/src/Java/JsonRead.java" />
-        <option value="$PROJECT_DIR$/BaseClass/src/Main/FailedLogin.java" />
-        <option value="$PROJECT_DIR$/BaseClass/src/Main/BaseClass.java" />
-        <option value="$PROJECT_DIR$/DragAndDrop/src/Java/DragNDrop.java" />
-        <option value="$PROJECT_DIR$/Sikuli/src/Main/sikuliBasic.java" />
-        <option value="$PROJECT_DIR$/TEstNG/src/Java/Dataprovider_TestNG.java" />
-        <option value="$PROJECT_DIR$/TEstNG/src/Java/TestNG.java" />
-        <option value="$PROJECT_DIR$/TEstNG/XMLs/TestNG.xml" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeRadio.java" />
-        <option value="$PROJECT_DIR$/InputTypes/src/InputTypeRange.java" />
-        <option value="$PROJECT_DIR$/AutoIT/src/Java/AutoITFileUpload.java" />
-        <option value="$PROJECT_DIR$/AutoIT/src/Java/AutoITCalculator.java" />
-        <option value="$PROJECT_DIR$/Robot/src/Main/RobotFileUpload.java" />
         <option value="$PROJECT_DIR$/FileUpload/src/Main/FileUplaod.java" />
         <option value="$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelWriteData.java" />
         <option value="$PROJECT_DIR$/ExcelRead/src/Main/Java/Login.java" />
@@ -250,21 +251,45 @@
         <option value="$PROJECT_DIR$/DatabaseTestPgAdmin/src/Java/DatabaseTestMultiColumn.java" />
         <option value="$PROJECT_DIR$/DropDowns/src/Java/DropDownByValue.java" />
         <option value="$PROJECT_DIR$/ScrollBars/src/Java/ScrollByVisibleElement.java" />
-        <option value="$PROJECT_DIR$/ObjectRepository/src/Java/ORWithXML.java" />
         <option value="$PROJECT_DIR$/Tabs/src/Java/Switch2Tabs.java" />
         <option value="$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelRead.java" />
-        <option value="$PROJECT_DIR$/REST/src/Rest_assured.java" />
         <option value="$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProvider.java" />
-        <option value="$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderRead.java" />
         <option value="$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderExcelRead.java" />
+        <option value="$PROJECT_DIR$/HeadlessBroweser/src/HtmlUnitDriver.java" />
+        <option value="$PROJECT_DIR$/REST/src/Rest_assured.java" />
+        <option value="$PROJECT_DIR$/REST/src/ValidateResponseHeader.java" />
+        <option value="$PROJECT_DIR$/REST/src/ResponseJSON.java" />
+        <option value="$PROJECT_DIR$/REST/src/POST_Request.java" />
+        <option value="$PROJECT_DIR$/AutoIT/src/Java/AutoITFileUpload.java" />
+        <option value="$PROJECT_DIR$/AutoIT/src/Java/AutoITCalculator.java" />
+        <option value="$PROJECT_DIR$/REST/src/JOB.java" />
+        <option value="$PROJECT_DIR$/ObjectRepository/src/Java/ORWithPropertiesFile.java" />
+        <option value="$PROJECT_DIR$/ObjectRepository/src/Java/ORWithXML.java" />
+        <option value="$PROJECT_DIR$/DragAndDrop/src/Java/DragNDrop.java" />
+        <option value="$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderRead.java" />
+        <option value="$PROJECT_DIR$/DataProvider/src/DataProviderExcelRead/DataProviderRead.java" />
+        <option value="$PROJECT_DIR$/DataProvider/src/DataProviderExcelRead/DataProviderExcelRead.java" />
+        <option value="$PROJECT_DIR$/DataProvider/src/DataProviderExcelRead/DataProviderExcelReadUtility.java" />
+        <option value="$PROJECT_DIR$/DataProvider/src/Dataprovider_TestNG.java" />
+        <option value="$PROJECT_DIR$/HeadlessBroweser/src/HtmlUnitDriverHeadless.java" />
+        <option value="$PROJECT_DIR$/HeadlessBroweser/src/PhantomHeadless.java" />
+        <option value="$PROJECT_DIR$/DataProvider/src/DataProviderExcelRead/TestDataProviderRead.java" />
+        <option value="$PROJECT_DIR$/JsonReadWrite/src/Java/JsonWrite.java" />
+        <option value="$PROJECT_DIR$/DropDowns/src/Java/DropDownOnPoup.java" />
+        <option value="$PROJECT_DIR$/JsonReadWrite/src/Java/JsonRead.java" />
+        <option value="$PROJECT_DIR$/Waits/src/ExplicitWait.java" />
+        <option value="$PROJECT_DIR$/Waits/src/ImplicitWait.java" />
+        <option value="$PROJECT_DIR$/Waits/src/FluentWait.java" />
+        <option value="$PROJECT_DIR$/FramesSwitch/src/SwitchToFrame_ID.java" />
+        <option value="$PROJECT_DIR$/FramesSwitch/src/SwitchToFrameIndex.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="830" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -284,6 +309,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,39 +320,20 @@
             <path>
               <item name="Selenium_Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Selenium_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Docs_files" type="462c0819:PsiDirectoryNode" />
+              <item name="FramesSwitch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Selenium_Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Selenium_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Docs_files" type="462c0819:PsiDirectoryNode" />
-              <item name="Excels" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ExcelRead" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ExcelRead" type="462c0819:PsiDirectoryNode" />
+              <item name="FramesSwitch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Selenium_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="ExcelRead" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -334,7 +341,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="F:/Library Files/rest-assured-3.1.1-deps/tagsoup-1.2.1.jar!/" />
+    <property name="last_opened_file_path" value="F:/Library Files/htmlunit-driver-standalone/selenium-server-standalone-2.53.0 (1).jar!/" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -344,18 +351,18 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Java" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Sunrich_Villas\Imgs" />
-      <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Docs_files\HtmlCssJs" />
-      <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Docs_files\Excels" />
-      <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Docs_files" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Sunrich_Villas\Imgs" />
       <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Sunrich_Villas" />
       <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Docs_files\HtmlCssJs" />
       <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Docs_files" />
       <recent name="F:\Projects\OnGitProjects\Selenium_Practice\VideoRecord\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Sunrich_Villas\Imgs" />
+      <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Docs_files\HtmlCssJs" />
+      <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Docs_files\Excels" />
+      <recent name="F:\Projects\OnGitProjects\Selenium_Practice\Docs_files" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -370,20 +377,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DataProviderRead (3)">
-    <configuration name="DataProviderRead (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SwitchToFrameIndex.SwitchToFrameIndex">
+    <configuration name="JsonRead.Json_Read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Main.Java.*" />
+          <option name="PATTERN" value="Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="ExcelReadWrite" />
+      <module name="JsonReadWrite" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Java" />
+      <option name="MAIN_CLASS_NAME" value="Java.JsonRead" />
+      <option name="METHOD_NAME" value="Json_Read" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration name="SwitchToFrameIndex" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="FramesSwitch" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="Main.Java" />
-      <option name="MAIN_CLASS_NAME" value="Main.Java.DataProviderRead" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SwitchToFrameIndex" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -403,116 +436,15 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="DataProviderRead (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Main.Java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ExcelReadWrite" />
+    <configuration name="SwitchToFrameIndex.SwitchToFrameIndex" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="FramesSwitch" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="Main.Java" />
-      <option name="MAIN_CLASS_NAME" value="Main.Java.DataProviderRead" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="DataProviderRead (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Main.Java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ExcelReadWrite" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="Main.Java" />
-      <option name="MAIN_CLASS_NAME" value="Main.Java.DataProviderRead" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="DataProviderRead" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Main.Java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ExcelReadWrite" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="Main.Java" />
-      <option name="MAIN_CLASS_NAME" value="Main.Java.DataProviderRead" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="DataProviderRead.validateCreateNewContact" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Main.Java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ExcelReadWrite" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="Main.Java" />
-      <option name="MAIN_CLASS_NAME" value="Main.Java.DataProviderRead" />
-      <option name="METHOD_NAME" value="validateCreateNewContact" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SwitchToFrameIndex" />
+      <option name="METHOD_NAME" value="SwitchToFrameIndex" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -531,11 +463,59 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+    <configuration name="SwitchToFrame_ID" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="FramesSwitch" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SwitchToFrame_ID" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="SwitchToFrame_ID.SwitchToFrame_ID" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="FramesSwitch" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SwitchToFrame_ID" />
+      <option name="METHOD_NAME" value="SwitchToFrame_ID" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
     <configuration name="TEstNG" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -582,19 +562,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Plugin.Plugin" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.TEstNG" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.DataProviderRead" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.DataProviderRead (1)" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.DataProviderRead.validateCreateNewContact" />
-      <item index="5" class="java.lang.String" itemvalue="TestNG.DataProviderRead (2)" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.DataProviderRead (3)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JsonRead.Json_Read" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.SwitchToFrame_ID" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.SwitchToFrame_ID.SwitchToFrame_ID" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.SwitchToFrameIndex.SwitchToFrameIndex" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.SwitchToFrameIndex" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.DataProviderRead (3)" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.DataProviderRead.validateCreateNewContact" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.DataProviderRead (2)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.DataProviderRead (1)" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.DataProviderRead" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.SwitchToFrameIndex.SwitchToFrameIndex" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.SwitchToFrameIndex" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.SwitchToFrame_ID.SwitchToFrame_ID" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.SwitchToFrame_ID" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.JsonRead.Json_Read" />
       </list>
     </recent_temporary>
   </component>
@@ -617,35 +597,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DataProviderRead - 2018.09.10 at 12h 52m 57s.xml">
-      <configuration name="DataProviderRead" configurationId="TestNG" />
+    <history-entry file="SwitchToFrameIndex - 2018.09.19 at 15h 09m 54s.xml">
+      <configuration name="SwitchToFrameIndex" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderRead_(1) - 2018.09.10 at 12h 53m 30s.xml">
-      <configuration name="DataProviderRead (1)" configurationId="TestNG" />
+    <history-entry file="SwitchToFrameIndex_SwitchToFrameIndex - 2018.09.19 at 15h 11m 00s.xml">
+      <configuration name="SwitchToFrameIndex.SwitchToFrameIndex" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderRead_(2) - 2018.09.10 at 14h 18m 51s.xml">
-      <configuration name="DataProviderRead (2)" configurationId="TestNG" />
+    <history-entry file="SwitchToFrameIndex_SwitchToFrameIndex - 2018.09.19 at 15h 12m 58s.xml">
+      <configuration name="SwitchToFrameIndex.SwitchToFrameIndex" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderRead_(3) - 2018.09.10 at 14h 34m 23s.xml">
-      <configuration name="DataProviderRead (3)" configurationId="TestNG" />
+    <history-entry file="SwitchToFrameIndex_SwitchToFrameIndex - 2018.09.19 at 15h 13m 57s.xml">
+      <configuration name="SwitchToFrameIndex.SwitchToFrameIndex" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderRead_validateCreateNewContact - 2018.09.10 at 14h 14m 07s.xml">
-      <configuration name="DataProviderRead.validateCreateNewContact" configurationId="TestNG" />
+    <history-entry file="SwitchToFrameIndex_SwitchToFrameIndex - 2018.09.19 at 15h 16m 49s.xml">
+      <configuration name="SwitchToFrameIndex.SwitchToFrameIndex" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderRead_validateCreateNewContact - 2018.09.10 at 14h 16m 23s.xml">
-      <configuration name="DataProviderRead.validateCreateNewContact" configurationId="TestNG" />
+    <history-entry file="SwitchToFrameIndex_SwitchToFrameIndex - 2018.09.19 at 15h 28m 29s.xml">
+      <configuration name="SwitchToFrameIndex.SwitchToFrameIndex" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DataProviderRead_validateCreateNewContact - 2018.09.10 at 14h 29m 11s.xml">
-      <configuration name="DataProviderRead.validateCreateNewContact" configurationId="TestNG" />
+    <history-entry file="SwitchToFrameIndex_SwitchToFrameIndex - 2018.09.19 at 15h 29m 38s.xml">
+      <configuration name="SwitchToFrameIndex.SwitchToFrameIndex" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Switch2Tabs_Switch_2Tabs - 2018.09.06 at 16h 03m 28s.xml">
-      <configuration name="Switch2Tabs.Switch_2Tabs" configurationId="TestNG" />
+    <history-entry file="SwitchToFrameIndex_SwitchToFrameIndex - 2018.09.19 at 15h 43m 51s.xml">
+      <configuration name="SwitchToFrameIndex.SwitchToFrameIndex" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TEstNG - 2018.06.26 at 09h 28m 35s.xml">
-      <configuration name="TEstNG" configurationId="TestNG" />
+    <history-entry file="SwitchToFrame_ID_SwitchToFrame_ID - 2018.09.19 at 15h 00m 05s.xml">
+      <configuration name="SwitchToFrame_ID.SwitchToFrame_ID" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.06.12 at 10h 38m 23s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
+    <history-entry file="SwitchToFrame_ID_SwitchToFrame_ID - 2018.09.19 at 15h 03m 03s.xml">
+      <configuration name="SwitchToFrame_ID.SwitchToFrame_ID" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -669,12 +649,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55627424" sideWeight="0.5025" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2689747" sideWeight="0.4975" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48601863" sideWeight="0.4975" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756326" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15295629" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15874036" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288948" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -687,7 +668,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288948" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -731,7 +711,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DropDowns/src/Java/DropDownOnPoup.java</url>
-          <line>37</line>
+          <line>38</line>
           <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
@@ -863,44 +843,44 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderRead.java</url>
-          <line>24</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderRead.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderRead.java</url>
-          <line>15</line>
+          <line>19</line>
           <properties />
           <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderRead.java</url>
-          <line>17</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderRead.java</url>
-          <line>13</line>
+          <line>17</line>
           <properties />
           <option name="timeStamp" value="138" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FramesSwitch/src/SwitchToFrame_ID.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderRead.java</url>
-          <line>21</line>
+          <line>25</line>
           <properties class="Main.Java.DataProviderRead" method="validateCreateNewContact">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="139" />
+      <option name="time" value="140" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
@@ -921,227 +901,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JsonReadWrite/src/Java/JsonRead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JsonReadWrite/src/Java/JsonWrite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeCheckBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/src/Java/BrowserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoIT/src/Java/AutoITCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoIT/src/Java/AutoITFileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaseClass/src/Main/FailedLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaseClass/src/Main/BaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buttons/src/Java/ClickDiv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buttons/src/Java/ClickButtonWithDiffWays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="41" column="50" lean-forward="true" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClearData/src/Java/DeleteoneCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DatabaseTestPgAdmin/src/Java/DatabaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="30" column="47" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DatabaseTestPgAdmin/src/Java/DatabaseTestMultiColumn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DropDowns/src/Java/DropDownByValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="44" column="14" lean-forward="false" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DropDowns/src/Java/DropDownByVisibleText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Robot/src/Main/RobotFileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/GetAllAttributesOfElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/GetAllAttributesOfElementWithJS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/SamePropertiesDelete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/SamePropertiesDeleteWithID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrollBars/src/Java/HorizontalScroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrollBars/src/Java/ScrollByPixel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrollBars/src/Java/ScrollByPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrollBars/src/Java/ScrollByVisibleElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="121" column="6" lean-forward="false" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Docs_files/Object Repository/OrXml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Docs_files/Object Repository/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ObjectRepository/src/Java/ORWithPropertiesFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Library Files/POI library/lib/dom4j-1.6.1.jar!/org/dom4j/Node.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="76" column="9" lean-forward="false" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ObjectRepository/src/Java/ORWithXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="139" lean-forward="false" selection-start-line="24" selection-start-column="139" selection-end-line="24" selection-end-column="139" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tabs/src/Java/Switch2Tabs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileUpload/src/Main/FileUplaod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1152,26 +915,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DropDowns/src/Java/DropDownByIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="41" column="63" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DragAndDrop/src/Java/DragNDrop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Alerts/src/Java/AlertLabels.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,7 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1195,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,7 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,25 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="17" column="5" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Library Files/docs/rest-assured-3.1.1-sources.jar!/io/restassured/http/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/REST/src/Rest_assured.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1237,29 +961,190 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/SamePropertiesDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Library Files/docs/rest-assured-3.1.1-sources.jar!/io/restassured/http/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Library Files/selenium-java-2.53.0/selenium-2.53.0/libs/testng-6.9.9.jar!/org/testng/SuiteRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="339" column="0" lean-forward="false" selection-start-line="339" selection-start-column="0" selection-end-line="339" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Library Files/testng-6.11.jar!/org/testng/internal/reflect/DataProviderMethodMatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REST/src/Rest_assured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REST/src/ResponseJSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REST/src/ValidateResponseHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REST/src/POST_Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoIT/src/Java/AutoITFileUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SameProperties/src/Java/InputSamePropertiesDeleteWithoutclick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="28" column="64" lean-forward="true" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputTypes/src/InputTypeColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExcelRead/src/Basic/WriteExcel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="136">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileUpload/src/Main/FileUplaod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REST/src/JOB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectRepository/src/Java/ORWithPropertiesFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectRepository/src/Java/ORWithXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="78" lean-forward="false" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoIT/src/Java/AutoITCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DragAndDrop/src/Java/DragNDrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="78" lean-forward="false" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DropDowns/src/Java/DropDownByIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="26" column="111" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="26" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEstNG/src/Java/TestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEstNG/src/Java/Dataprovider_TestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelRead.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="-425">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
+        <state relative-caret-position="-238">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
@@ -1267,34 +1152,174 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/ExcelWriteData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Library Files/testng-6.11.jar!/org/testng/internal/reflect/DataProviderMethodMatcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderExcelRead.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="36" column="14" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="14" />
+        <state relative-caret-position="313">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataProvider/src/Dataprovider_TestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsonReadWrite/src/Java/JsonWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs_files/Jsons/colors.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeadlessBroweser/src/HtmlUnitDriverHeadless.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DropDowns/src/Java/DropDownOnPoup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="5" column="54" lean-forward="false" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsonReadWrite/src/Java/JsonRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExcelRead/src/Main/Java/DataProviderRead.java">
+    <entry file="file://$PROJECT_DIR$/HeadlessBroweser/src/PhantomHeadless.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="289">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataProvider/src/DataProviderExcelRead/TestDataProviderRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataProvider/src/DataProviderExcelRead/DataProviderExcelReadUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buttons/src/Java/ClickButtonWithDiffWays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Waits/src/ExplicitWait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Waits/src/ImplicitWait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="44" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Waits/src/FluentWait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Library Files/selenium-java-2.53.0/selenium-2.53.0/selenium-java-2.53.0-srcs.jar!/org/openqa/selenium/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="361" column="14" lean-forward="false" selection-start-line="361" selection-start-column="14" selection-end-line="361" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FramesSwitch/src/SwitchToFrame_ID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FramesSwitch/src/SwitchToFrameIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

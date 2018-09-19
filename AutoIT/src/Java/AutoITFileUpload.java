@@ -15,7 +15,8 @@ public class AutoITFileUpload {
     String AutoITFile = filelocation + File.separator + "Docs_files" + File.separator + "AutoITFiles" + File.separator + "File_Upload.exe";
 
     @Test
-    public void AutoIT_FileUpload() throws InterruptedException, IOException {
+    public void AutoIT_FileUpload() throws InterruptedException, IOException
+    {
         String ChrmDrvr = filelocation + File.separator + "Drivers" + File.separator + "chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", ChrmDrvr);
         w = new ChromeDriver();
